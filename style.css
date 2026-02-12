@@ -153,9 +153,9 @@ body{
     transition: 0.3s;
 }
 .image{
-    width: 300px;
+    width: 270px;
     max-width: 100%;
-    height: 170px;
+    height: 140px;
     border-radius: 10px;
     margin: 10px;
 }
