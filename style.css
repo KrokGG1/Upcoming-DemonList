@@ -65,7 +65,6 @@ body{
     border: none;
     border-radius: 5px;
     font-size: 30px;
-    cursor: pointer;
     text-decoration: none;
     padding-top: 8px;
 }
@@ -87,7 +86,6 @@ body{
     background: none;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     margin-left: 30px;
     transition: 0.3s;
     text-decoration: none;
@@ -175,4 +173,9 @@ body{
     margin: 10px;
     margin-bottom: 20px;
     color: #76deff;
+}
+
+#ill-link{
+    text-decoration: none;
+    color: #00c800;
 }
