@@ -4,4 +4,6 @@
 
 📗 The Impossible Levels List and opinions of level verifers were used during the placement
 
-📙Placement is NOT 100% accurate!
+📙 Placement is NOT 100% accurate!
+
+🔗 https://krokgg1.github.io/Upcoming-DemonList/
