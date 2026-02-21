@@ -11,3 +11,7 @@
 # Other
 
 🔗 Impossible Levels List - https://impossiblelevels.com/
+
+🔗 YouTube - https://www.youtube.com/@KrokGG1
+
+🔗 TikTok - https://www.tiktok.com/@krokgg1.gmd
