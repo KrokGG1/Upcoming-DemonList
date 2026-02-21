@@ -6,4 +6,8 @@
 
 📙 Placement is NOT 100% accurate!
 
-🔗 https://krokgg1.github.io/Upcoming-DemonList/
+🔗 List - https://krokgg1.github.io/Upcoming-DemonList/
+
+# Other
+
+🔗 Impossible Levels List - https://impossiblelevels.com/
