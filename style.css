@@ -179,3 +179,24 @@ body{
     text-decoration: none;
     color: #008e00;
 }
+
+.h-link{
+    text-decoration: none;
+}
+
+#yt{
+    color: #d50000;
+}
+
+#tt{
+    color: #5d3dcc;
+}
+
+#gh{
+    color: #5ba1cd;
+}
+
+.sl{
+    margin: 10px;
+    list-style: none;
+}
