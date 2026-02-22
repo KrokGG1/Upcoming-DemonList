@@ -1,4 +1,6 @@
-# Upcoming DemonList
+# Upcoming DemonLis
+
+в гд тиктоке сидят очень странные люди, и это факт (°<°)
 
 📘 It's list of future TOP 15 demons that contains levels from TOP 1 to TOP 15 difficulty
 
