@@ -8,12 +8,8 @@
 
 📙 Placement is NOT 100% accurate!
 
-🔗 List - https://krokgg1.github.io/Upcoming-DemonList/
+🔗 List - https://DbIxOfficial.github.io/Upcoming-DemonList/
 
 # Other
 
 🔗 Impossible Levels List - https://impossiblelevels.com/
-
-🔗 YouTube - https://www.youtube.com/@KrokGG1
-
-🔗 TikTok - https://www.tiktok.com/@krokgg1.gmd
