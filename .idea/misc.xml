@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Upcoming DemonList)" project-jdk-type="Python SDK" />
+=======
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (Upcoming Demon List)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Upcoming Demon List)" project-jdk-type="Python SDK" />
+>>>>>>> 30ccaa675a9ff396533c73fceb7b44f0b384efba
+</project>
