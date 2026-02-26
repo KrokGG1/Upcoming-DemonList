@@ -4,10 +4,12 @@
 
 | Version      | Supported |
 | ------------ | --------- |
-| releases     | ✅        |
-| pre-releases | ⚠️        |
+| vx.x.x       | ✅        |
+| vx.x-beta    | ⚠️        |
+| vx.x-alpha   | ⚠️        |
 
-Pre-releases can contain bugs or it may not be finished
+
+beta and alpha versions can contain bugs or it may not be finished
 
 ## Level requests
 
