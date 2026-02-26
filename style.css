@@ -46,8 +46,7 @@ body{
     }
 }
 .level:hover{
-    background-color: #2f2f3c;
-    border: 1px solid #4b6a9c;
+    border: 1px solid #3e6fcc;
 }
 .top{
     display: flex;
