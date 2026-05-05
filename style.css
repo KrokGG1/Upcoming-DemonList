@@ -19,6 +19,16 @@ body{
     margin-bottom: 10px;
     transition: 0.3s;
 }
+.pred-d{
+    display: flex;
+    border: 1px solid #43435a;
+    border-radius: 15px;
+    background-color: #1c1c25;
+    text-decoration: none;
+    width: 500px;
+    margin: 10px;
+    transition: 0.3s;
+}
 .image{
     width: 270px;
     max-width: 100%;
@@ -29,13 +39,31 @@ body{
 .level-name{
     color: white;
 }
+.pred-b{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .name{
     font-size: 30px;
     margin: 0;
     margin-left: 10px;
 }
+.pred{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+}
 .creator{
     margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #3a95a6;
+}
+.descr{
+    margin: 0;
+    margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
     color: #3a95a6;
@@ -46,6 +74,9 @@ body{
     }
 }
 .level:hover{
+    border: 1px solid #3e6fcc;
+}
+.pred-d:hover{
     border: 1px solid #3e6fcc;
 }
 .top{
