@@ -53,7 +53,7 @@ body{
     font-size: 30px;
     margin: 0;
     margin-left: 10px;
-    color: white;
+    color: #cdcdcd;
 }
 .creator{
     margin: 0;
@@ -90,8 +90,9 @@ body{
     font-size: 17px;
 }
 #placement{
-    color: #ffffff;
-    background: none;
+    background: linear-gradient(to bottom, white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border: none;
     border-radius: 5px;
     font-size: 30px;
@@ -128,10 +129,15 @@ body{
     background: #28334c;
 }
 
-#main-board{
+.main-board{
     border: 1px solid #43435a;
     border-radius: 10px;
     background-color: #1c1c25;
+    text-decoration: none;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#main-board1{
     text-decoration: none;
     width: 1000px;
     margin-bottom: 20px;
@@ -147,10 +153,21 @@ body{
 
 #t-m{
     margin: 0;
+    background: linear-gradient(to bottom, white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#t-m-w{
+    margin: 0;
+    font-size: 60px;
+    background: linear-gradient(to bottom, white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
 }
 
 .main-plc{
-    color: white;
+    color: #cdcdcd;
     font-size: 30px;
     list-style: none;
 }
@@ -159,13 +176,8 @@ body{
     margin: 10px;
 }
 
-.line{
-    color:white;
-    font-size: 40px;
-}
-
 .chgs{
-    color: white;
+    color: #cdcdcd;
     font-size: 30px;
     list-style: none;
 }
@@ -183,31 +195,25 @@ body{
 }
 
 #main-text{
-    color: white;
+    color: #cdcdcd;
     font-size: 30px;
 }
-
-.y{
-    margin: 10px;
-    margin-bottom: 20px;
-    color: #ffcc00;
+#welcome-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
 .g{
     margin: 10px;
-    margin-bottom: 20px;
-    color: #00c800;
+    color: #cdcdcd;
+    font-size: 25px;
 }
-
-.b{
+.g-u{
     margin: 10px;
-    margin-bottom: 20px;
-    color: #76deff;
-}
-
-#ill-link{
-    text-decoration: none;
-    color: #008e00;
+    margin-bottom: 50px;
+    color: #cdcdcd;
+    font-size: 27px;
 }
 
 .h-link{
@@ -236,4 +242,32 @@ body{
     margin-top: 10px;
     font-size: 20px;
     color: white;
+}
+#by-me{
+    text-decoration: none;
+    color: #94a0bf;
+    font-size: 25px;
+}
+#etl{
+    border-radius: 15px;
+    background: linear-gradient(to right, #00a3ff, #006fff);
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px #9ce2ff;
+}
+#etl:hover{
+    box-shadow: 0px 0px 15px #9ce2ff;
+}
+#algn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
