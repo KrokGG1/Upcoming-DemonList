@@ -7,8 +7,6 @@
 | vx.x.x       | ✅        |
 
 
-beta and alpha versions can contain bugs or it may not be finished
-
 ## Level requests
 
 You can send a level that i should add to list
