@@ -5,8 +5,6 @@
 | Version      | Supported |
 | ------------ | --------- |
 | vx.x.x       | ✅        |
-| vx.x-beta    | ⚠️        |
-| vx.x-alpha   | ⚠️        |
 
 
 beta and alpha versions can contain bugs or it may not be finished
