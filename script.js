@@ -496,24 +496,26 @@ async function toggleAdmin() {
         const user = await response.json();
 
         if (user.login !== "KrokGG1") {
-
             alert("Access denied");
             return;
-
         }
 
-        adminMode = true;
 
+        // сохраняем токен
         localStorage.setItem("githubToken", token);
         localStorage.setItem("adminMode", "true");
 
-        const data = await loadGithubAdminData();
-        await saveGithubData(data);
+        adminMode = true;
 
+
+        // просто перезагружаем страницу
+        // данные загрузятся уже с токеном
         location.reload();
 
-    } catch {
 
+    } catch (err) {
+
+        console.log(err);
         alert("Connection error");
 
     }
