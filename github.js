@@ -7,47 +7,16 @@ let githubSha = null;
 
 async function loadGithubData() {
 
-    const token = localStorage.getItem("githubToken");
-
-    // Если пользователь НЕ админ — читаем обычный файл
-    if (!token) {
-        const response = await fetch("https://krokgg1.github.io/Upcoming-DemonList/data.json"));
-
-        if (!response.ok) {
-            throw new Error("Cannot load data.json");
-        }
-
-        return await response.json();
-    }
-
-    // Если админ — читаем через GitHub API
-    const response = await fetch(
-        `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
-        {
-            headers: {
-                Authorization: `Bearer ${token}`,
-                Accept: "application/vnd.github+json"
-            }
-        }
-    );
+    // обычная загрузка для всех пользователей
+    const response = await fetch("./data.json");
 
     if (!response.ok) {
-        const err = await response.json();
-        console.log(err);
-        throw new Error(err.message);
+        throw new Error("Cannot load data.json");
     }
 
-    const file = await response.json();
+    const data = await response.json();
 
-    githubSha = file.sha;
-
-    return JSON.parse(
-        decodeURIComponent(
-            escape(
-                atob(file.content.replace(/\n/g, ""))
-            )
-        )
-    );
+    return data;
 }
 
 async function saveGithubData(data) {
@@ -146,4 +115,39 @@ async function syncToGithub() {
 
     await saveGithubData(data);
 
+}
+
+async function loadGithubAdminData() {
+
+    const token = localStorage.getItem("githubToken");
+
+    if (!token) {
+        throw new Error("No token");
+    }
+
+    const response = await fetch(
+        `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
+        {
+            headers: {
+                Authorization: `Bearer ${token}`,
+                Accept: "application/vnd.github+json"
+            }
+        }
+    );
+
+    if (!response.ok) {
+        const err = await response.json();
+        console.log(err);
+        throw new Error(err.message);
+    }
+
+    const file = await response.json();
+
+    githubSha = file.sha;
+
+    return JSON.parse(
+        decodeURIComponent(
+            escape(atob(file.content.replace(/\n/g, "")))
+        )
+    );
 }
