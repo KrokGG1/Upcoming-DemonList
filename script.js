@@ -507,6 +507,9 @@ async function toggleAdmin() {
         localStorage.setItem("githubToken", token);
         localStorage.setItem("adminMode", "true");
 
+        const data = await loadGithubAdminData();
+        await saveGithubData(data);
+
         location.reload();
 
     } catch {
