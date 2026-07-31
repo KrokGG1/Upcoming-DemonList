@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upcoming DemonList</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body>
+
+<div class="list">
+
+    <div class="top">
+        <a href="index.html" id="placement">UPCOMING DEMONLIST</a>
+
+        <a href="List.html" class="button-page">List</a>
+        <a href="changes.html" class="button-page">Upcoming Changes</a>
+        <a href="social.html" class="button-page">Social</a>
+        <a href="pred.html" class="button-page">Other Lists</a>
+        <button id="loginBtn" class="abtn" onclick="toggleAdmin()">A</button>
+            <button id="logoutBtn" class="abtn" onclick="logoutAdmin()" style="display:none;">Logout</button>
+    </div>
+
+    <div id="levels"></div>
+
+</div>
+
+<div class="admin-panel">
+
+    <div id="editor" class="editor">
+
+    <div class="editor-box">
+
+        <h2>Edit level</h2>
+
+        <input id="eName" placeholder="Level name">
+
+        <input id="eCreator" placeholder="Creator">
+
+        <input id="eWR" placeholder="WR">
+
+        <input id="eImage" placeholder="Image">
+
+        <input id="eLink" placeholder="YouTube">
+
+        <div class="editor-buttons">
+
+            <button onclick="saveEdit()">Save</button>
+
+            <button onclick="closeEditor()">Cancel</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <h2>Admin Panel</h2>
+
+    <input id="levelName" placeholder="Level name">
+
+    <input id="creator" placeholder="Creator">
+
+    <input id="wr" placeholder="WR">
+
+    <input id="image" placeholder="Image (images/example.png)">
+
+    <input id="link" placeholder="YouTube link">
+
+    <button onclick="addLevel()">Add Level</button>
+
+    <button id="sep" onclick="addSeparator()">Add Separator</button>
+
+</div>
+<script src="data.js"></script>
+<script src="github.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

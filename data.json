@@ -1,0 +1,513 @@
+{
+  "defaultLevels": [
+    {
+      "name": "Adramelech",
+      "creator": "FallingStar",
+      "wr": "11%",
+      "image": "images/Adramelech.png",
+      "link": "https://www.youtube.com/watch?v=dQ7c15HKszk"
+    },
+    {
+      "name": "Sakupen End",
+      "creator": "Nick24",
+      "wr": "25%",
+      "image": "images/Sakupen end.png",
+      "link": "https://www.youtube.com/watch?v=oN-udpwLqng"
+    },
+    {
+      "name": "Aeternus",
+      "creator": "Riot",
+      "wr": "20%",
+      "image": "images/Aeternus.png",
+      "link": "https://www.youtube.com/watch?v=XjypbEY_2Aw"
+    },
+    {
+      "name": "Rebirth The End",
+      "creator": "Narwall",
+      "wr": "N/A",
+      "image": "images/rte.png",
+      "link": "https://www.youtube.com/watch?v=W4dDG845in8"
+    },
+    {
+      "name": "Aquila Rift",
+      "creator": "Zoink Doink",
+      "wr": "N/A",
+      "image": "images/Aquila Rift.png",
+      "link": "https://www.youtube.com/watch?v=FQfTPfZYldY"
+    },
+    {
+      "name": "Vehemence",
+      "creator": "zYuko",
+      "wr": "41%",
+      "image": "images/Vehemence.png",
+      "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
+    },
+    {
+      "name": "Kingdom Of Miracalis",
+      "creator": "realvet",
+      "wr": "N/A",
+      "image": "images/Kingdom Of Miracalis.png",
+      "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
+    },
+    {
+      "name": "The Human Limit",
+      "creator": "The Elite",
+      "wr": "24%",
+      "image": "images/the human limit.png",
+      "link": "https://www.youtube.com/watch?v=8GLfrChGAhs"
+    },
+    {
+      "name": "Tsunami",
+      "creator": "OniLinkGD",
+      "wr": "N/A",
+      "image": "images/Tsunami.png",
+      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+    },
+    {
+      "name": "Angelicide",
+      "creator": "zYuko",
+      "wr": "37%",
+      "image": "images/Angelicide.jpg",
+      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+    },
+    {
+      "name": "Sweeping Demon II",
+      "creator": "Temp",
+      "wr": "86%",
+      "image": "images/Sweeping Demon II.png",
+      "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+    },
+    {
+      "name": "Heliopolis",
+      "creator": "MindCap",
+      "wr": "51%",
+      "image": "images/Heliopolis.png",
+      "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+    },
+    {
+      "name": "KOCMOC Unleashed",
+      "creator": "cherryteam",
+      "wr": "69%",
+      "image": "images/KOCMOC Unleashed.png",
+      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+    },
+    {
+      "name": "Grief",
+      "creator": "IcEDCave",
+      "wr": "97%",
+      "image": "images/Grief.png",
+      "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+    },
+    {
+      "name": "Exasperation",
+      "creator": "Thycket",
+      "wr": "67%",
+      "image": "images/Exasperation.png",
+      "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+    },
+    {
+      "name": "Scarlet Sirius",
+      "creator": "TrueOmega",
+      "wr": "N/A",
+      "image": "images/Scarlet Sirius.png",
+      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
+    },
+    {
+      "name": "Artemis 13",
+      "creator": "nxhtrise",
+      "wr": "61%",
+      "image": "images/Artemis 13.png",
+      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
+    },
+    {
+      "separator": "Society"
+    },
+    {
+      "name": "Misanthrope",
+      "creator": "Brittank88",
+      "wr": "48%",
+      "image": "images/Misanthrope.png",
+      "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
+    },
+    {
+      "name": "Azure Flare",
+      "creator": "Aeden",
+      "wr": "49%",
+      "image": "images/Azure Flare.jpg",
+      "link": "https://www.youtube.com/watch?v=ZYTwtriLkj8"
+    },
+    {
+      "name": "Ascension to Heaven",
+      "creator": "Blueskii",
+      "wr": "20%",
+      "image": "images/ATH.png",
+      "link": "https://www.youtube.com/watch?v=ExbdlSBKXu4"
+    },
+    {
+      "name": "Banshee",
+      "creator": "Nikrodox",
+      "wr": "86%",
+      "image": "images/banshee.png",
+      "link": "https://www.youtube.com/watch?v=h14lmGH31_M"
+    },
+    {
+      "separator": "Amethyst"
+    },
+    {
+      "name": "Tunnel of Serpent",
+      "creator": "Demi",
+      "wr": "60%",
+      "image": "images/Tunnel of serpent.png",
+      "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
+    },
+    {
+      "name": "It Means Everything",
+      "creator": "Vel",
+      "wr": "74%",
+      "image": "images/IME.png",
+      "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
+    },
+    {
+      "name": "Silent Clubstep II",
+      "creator": "Sailent",
+      "wr": "31%",
+      "image": "images/Silent Clubstep II.png",
+      "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
+    },
+    {
+      "name": "Eternal Silence",
+      "creator": "realvet",
+      "wr": "74%",
+      "image": "images/Eternal Silence.png",
+      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
+    },
+    {
+      "name": "Silent Acropolis",
+      "creator": "ThePurgatory",
+      "wr": "85%",
+      "image": "images/Silent Acropolis.png",
+      "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
+    },
+    {
+      "name": "Wrath",
+      "creator": "cherryteam",
+      "wr": "N/A",
+      "image": "images/Wrath.png",
+      "link": "https://www.youtube.com/watch?v=-jvx1MJTP-Q"
+    },
+    {
+      "name": "Silent Circles",
+      "creator": "cherryteam",
+      "wr": "N/A",
+      "image": "images/SCc.png",
+      "link": "https://www.youtube.com/watch?v=_PKoLv-BMIo"
+    },
+    {
+      "name": "Redemption",
+      "creator": "cherryteam",
+      "wr": "35%",
+      "image": "images/Redemption.png",
+      "link": "https://www.youtube.com/watch?v=NGMluwJ3f0s"
+    },
+    {
+      "name": "Fairy Knife Hell",
+      "creator": "EternaswipVMAX",
+      "wr": "37%",
+      "image": "images/Fairy Knife Hell.png",
+      "link": "https://www.youtube.com/watch?v=Ts5ZDH6ueX4"
+    },
+    {
+      "name": "Labyrinth",
+      "creator": "SyQual",
+      "wr": "68%",
+      "image": "images/Labyrinth.png",
+      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
+    },
+    {
+      "name": "Furioso",
+      "creator": "cherryteam",
+      "wr": "N/A",
+      "image": "images/Furioso.png",
+      "link": "https://www.youtube.com/watch?v=-jrmJssOYV8"
+    },
+    {
+      "name": "Silent Circles",
+      "creator": "Starchman",
+      "wr": "82%",
+      "image": "images/SCs.jpg",
+      "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
+    },
+    {
+      "name": "Antarctic Lights",
+      "creator": "declanlc",
+      "wr": "100%",
+      "image": "images/Antarctic lights.png",
+      "link": "https://www.youtube.com/watch?v=oZfKkZ36L9Q"
+    },
+    {
+      "separator": "Tidal Wave"
+    },
+     {
+      "name": "Escalator",
+      "creator": "Neomarbilan",
+      "wr": "49%",
+      "image": "images/Escalator.png",
+      "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
+    },
+    {
+      "name": "Silent Oppenheimer",
+      "creator": "Feijoaoa",
+      "wr": "67%",
+      "image": "images/Silent oppenheimer.png",
+      "link": "https://www.youtube.com/watch?v=Q-IT8xuqU9Q"
+    },
+    {
+      "name": "Ouroboros",
+      "creator": "qmystic",
+      "wr": "73%",
+      "image": "images/Ouroboros.png",
+      "link": "https://www.youtube.com/watch?v=9T8-r-nZ4Og"
+    },
+    {
+      "name": "Injury",
+      "creator": "greafer",
+      "wr": "74%",
+      "image": "images/injury.png",
+      "link": "https://www.youtube.com/watch?v=bqZL6QKsDZI"
+    },
+    {
+      "name": "Cyberpsychosis",
+      "creator": "Sobeann",
+      "wr": "52%",
+      "image": "images/Cyberpsychosis.png",
+      "link": "https://www.youtube.com/watch?v=yJUFmtYwHYg"
+    },
+    {
+      "name": "Herr Machine",
+      "creator": "HerrTeam",
+      "wr": "100%",
+      "image": "images/Herr Machine.png",
+      "link": "https://www.youtube.com/watch?v=dUKYJcemh-c"
+    }
+  ],
+
+  "defaultLists": [
+    {
+      "name": "Current Top 10",
+      "description": "Actual Difficulty",
+      "file": "list1"
+    },
+    {
+      "name": "End of 2027 Top 10",
+      "description": "31/12/2027 Top 10",
+      "file": "list2"
+    },
+    {
+      "name": "End of 2028 Top 10",
+      "description": "31/12/2028 Top 10",
+      "file": "list3"
+    }
+  ],
+
+  "listLevels": {
+    "list1": [
+      {
+        "name": "Society",
+        "creator": "Neomarbilian",
+        "image": "images/Society.png",
+        "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+      },
+      {
+        "name": "Amethyst",
+        "creator": "iMist",
+        "image": "images/Amethyst.png",
+        "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
+      },
+      {
+        "name": "Thinking Space II",
+        "creator": "CairoX",
+        "image": "images/TSII.png",
+        "link": "https://www.youtube.com/watch?v=CELNmHwln_c"
+      },
+      {
+        "name": "Flamewall",
+        "creator": "Narwall",
+        "image": "images/Flamewall.png",
+        "link": "https://www.youtube.com/watch?v=x4Io4zkWVRw"
+      },
+      {
+        "name": "Green Bullet",
+        "creator": "cherryteam",
+        "image": "images/Green Bullet.png",
+        "link": "https://www.youtube.com/watch?v=JG-qcvVkZFw"
+      },
+      {
+        "name": "Tidal wave",
+        "creator": "OniLinkGD",
+        "image": "images/TW.png",
+        "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
+      },
+      {
+        "name": "ORBIT",
+        "creator": "MindCap",
+        "image": "images/Orbit.png",
+        "link": "https://www.youtube.com/watch?v=QKcv8DkNPd0"
+      },
+      {
+        "name": "Nullscapes",
+        "creator": "ItzKiba",
+        "image": "images/Nullscapes.png",
+        "link": "https://www.youtube.com/watch?v=EztneTPp5CU"
+      },
+      {
+        "name": "BOOBAWAMBA",
+        "creator": "Akunakunn",
+        "image": "images/Boobawamba.png",
+        "link": "https://www.youtube.com/watch?v=20fYiqLAo_E"
+      },
+      {
+        "name": "Quanteuse Processing",
+        "creator": "Renn241",
+        "image": "images/QProc.png",
+        "link": "https://www.youtube.com/watch?v=20fYiqLAo_E"
+      }
+    ],
+
+    "list2": [
+      {
+        "name": "Vehemence",
+        "creator": "zYuko",
+        "image": "images/Vehemence.png",
+        "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
+      },
+      {
+        "name": "Angelicide",
+        "creator": "zYuko",
+        "image": "images/Angelicide.jpg",
+        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "Sweeping Demon II",
+        "creator": "Temp",
+        "image": "images/Sweeping Demon II.png",
+        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+      },
+      {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "images/KOCMOC Unleashed.png",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+      },
+      {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+      },
+      {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "images/Exasperation.png",
+        "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+      },
+      {
+        "name": "Society",
+        "creator": "Neomarbilian",
+        "image": "images/Society.png",
+        "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+      },
+      {
+        "name": "Misanthrope",
+        "creator": "Brittank88",
+        "image": "images/Misanthrope.png",
+        "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
+      },
+      {
+        "name": "Amethyst",
+        "creator": "iMist",
+        "image": "images/Amethyst.png",
+        "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
+      }
+    ],
+
+    "list3": [
+      {
+        "name": "Rebirth The End",
+        "creator": "Narwall",
+        "image": "images/rte.png",
+        "link": "https://www.youtube.com/watch?v=W4dDG845in8"
+      },
+      {
+        "name": "Vehemence",
+        "creator": "zYuko",
+        "image": "images/Vehemence.png",
+        "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
+      },
+      {
+      "name": "Kingdom Of Miracalis",
+      "creator": "realvet",
+      "image": "images/Kingdom Of Miracalis.png",
+      "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
+      },
+       {
+      "name": "Tsunami",
+      "creator": "OniLinkGD",
+      "image": "images/Tsunami.png",
+      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      },
+      {
+        "name": "Angelicide",
+        "creator": "zYuko",
+        "image": "images/Angelicide.jpg",
+        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "Sweeping Demon II",
+        "creator": "Temp",
+        "image": "images/Sweeping Demon II.png",
+        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+      },
+      {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "images/KOCMOC Unleashed.png",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+      },
+      {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+      },
+      {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "images/Exasperation.png",
+        "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+      }
+    ]
+  },
+
+  "defaultChanges": [
+    {
+        "name": "Herr Machine",
+        "icon": "🟣"
+    },
+    {
+        "name": "Antarctic Lights",
+        "icon": "🟣"
+    }
+  ]
+}
