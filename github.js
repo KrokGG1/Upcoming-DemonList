@@ -6,19 +6,29 @@ const FILE = "data.json";
 let githubSha = null;
 
 async function loadGithubData() {
+
     const token = localStorage.getItem("githubToken");
 
-    const headers = {
-        Accept: "application/vnd.github+json"
-    };
+    // Если пользователь НЕ админ — читаем обычный файл
+    if (!token) {
+        const response = await fetch("https://krokgg1.github.io/Upcoming-DemonList/data.json"));
 
-    if (token) {
-        headers.Authorization = `Bearer ${token}`;
+        if (!response.ok) {
+            throw new Error("Cannot load data.json");
+        }
+
+        return await response.json();
     }
 
+    // Если админ — читаем через GitHub API
     const response = await fetch(
         `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
-        { headers }
+        {
+            headers: {
+                Authorization: `Bearer ${token}`,
+                Accept: "application/vnd.github+json"
+            }
+        }
     );
 
     if (!response.ok) {
@@ -31,11 +41,13 @@ async function loadGithubData() {
 
     githubSha = file.sha;
 
-    const text = decodeURIComponent(
-        escape(atob(file.content.replace(/\n/g, "")))
+    return JSON.parse(
+        decodeURIComponent(
+            escape(
+                atob(file.content.replace(/\n/g, ""))
+            )
+        )
     );
-
-    return JSON.parse(text);
 }
 
 async function saveGithubData(data) {
