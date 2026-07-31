@@ -518,6 +518,8 @@ async function toggleAdmin() {
 }
 
 function logoutAdmin() {
+
+    console.log("logout");
     
     adminMode = false;
     localStorage.removeItem("githubToken");
