@@ -11,8 +11,15 @@ async function loadGithubData() {
     const response = await fetch("./data.json");
 
     if (!response.ok) {
-        throw new Error("Cannot load data.json");
-    }
+
+    const err = await response.json();
+
+    console.log("GitHub error:", err);
+
+    alert(JSON.stringify(err, null, 2));
+
+    return;
+}
 
     const data = await response.json();
 
