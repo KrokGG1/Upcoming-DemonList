@@ -462,9 +462,10 @@ async function toggleAdmin() {
 
     if (adminMode) {
 
-        adminMode = false;
         localStorage.removeItem("githubToken");
         localStorage.setItem("adminMode", "false");
+
+        adminMode = false;
 
         renderLevels();
         renderChanges();
