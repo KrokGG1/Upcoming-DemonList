@@ -33,10 +33,11 @@ async function saveGithubData(data) {
     const response = await fetch(
         `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
         {
-            headers: {
-                Authorization: `Bearer ${token}`,
-                Accept: "application/vnd.github+json"
-            }
+           headers: {
+    Authorization: `Bearer ${token}`,
+    Accept: "application/vnd.github+json",
+    "Content-Type": "application/json"
+}
         }
     );
 
@@ -127,7 +128,7 @@ async function loadGithubAdminData() {
     const token = localStorage.getItem("githubToken");
 
     if (!token) {
-        throw new Error("No token");
+        throw new Error("No github token");
     }
 
     const response = await fetch(
@@ -152,7 +153,9 @@ async function loadGithubAdminData() {
 
     return JSON.parse(
         decodeURIComponent(
-            escape(atob(file.content.replace(/\n/g, "")))
+            escape(
+                atob(file.content.replace(/\n/g, ""))
+            )
         )
     );
 }
