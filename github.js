@@ -21,7 +21,7 @@ async function loadGithubData() {
 
 async function saveGithubData(data) {
 
-    const token = localStorage.getItem("githubToken");
+    const token = adminMode ? localStorage.getItem("githubToken") : null;
 
     if (!token) {
         alert("You are not logged in.");
