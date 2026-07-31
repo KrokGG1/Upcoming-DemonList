@@ -59,8 +59,12 @@ async function saveGithubData(data) {
                 JSON.stringify(data, null, 2)
             )
         )
-    );
-
+    ); 
+    console.log({
+    file: FILE,
+    branch: BRANCH,
+    sha: githubSha
+});
     const response = await fetch(
         `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,
         {
