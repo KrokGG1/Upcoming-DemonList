@@ -76,14 +76,12 @@ async function saveGithubData(data) {
 
 if (!response.ok) {
 
-    const err = await response.text();
+    const err = await response.json();
 
-    console.error("Status:", response.status);
-    console.error(err);
+console.log(err);
+alert(JSON.stringify(err, null, 2));
 
-    alert("GitHub save error: " + response.status);
-
-    return;
+return;
 }
 
     const result = await response.json();
