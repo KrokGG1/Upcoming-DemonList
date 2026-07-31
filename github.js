@@ -1,4 +1,4 @@
-const OWNER = "KrokGG1111";
+const OWNER = "KrokGG1";
 const REPO = "Upcoming-DemonList";
 const BRANCH = "main";
 const FILE = "data.json";
