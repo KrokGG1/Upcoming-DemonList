@@ -30,15 +30,20 @@ async function saveGithubData(data) {
 
     if (!githubSha) {
 
-        const response = await fetch(
-            `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`
-        );
+    const response = await fetch(
+        `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
+        {
+            headers: {
+                Authorization: `Bearer ${token}`,
+                Accept: "application/vnd.github+json"
+            }
+        }
+    );
 
-        const file = await response.json();
+    const file = await response.json();
 
-        githubSha = file.sha;
-
-    }
+    githubSha = file.sha;
+}
 
     const content = btoa(
         unescape(
