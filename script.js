@@ -518,14 +518,14 @@ async function toggleAdmin() {
 }
 
 function logoutAdmin() {
-
+    
     adminMode = false;
-
+    localStorage.removeItem("githubToken");
     localStorage.setItem("adminMode", "false");
 
     updateAdminButtons();
 
-    location.reload(); // если на странице есть админ-панель
+    location.reload();
 }
 
 function updateAdminButtons() {
