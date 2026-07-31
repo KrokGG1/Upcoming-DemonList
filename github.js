@@ -6,13 +6,25 @@ const FILE = "data.json";
 let githubSha = null;
 
 async function loadGithubData() {
+    const token = localStorage.getItem("githubToken");
+
+    const headers = {
+        Accept: "application/vnd.github+json"
+    };
+
+    if (token) {
+        headers.Authorization = `Bearer ${token}`;
+    }
 
     const response = await fetch(
-        `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`
+        `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}?ref=${BRANCH}`,
+        { headers }
     );
 
     if (!response.ok) {
-        throw new Error("Cannot load data.json");
+        const err = await response.json();
+        console.log(err);
+        throw new Error(err.message);
     }
 
     const file = await response.json();
@@ -20,10 +32,8 @@ async function loadGithubData() {
     githubSha = file.sha;
 
     const text = decodeURIComponent(
-    escape(
-        atob(file.content.replace(/\n/g, ""))
-    )
-);
+        escape(atob(file.content.replace(/\n/g, "")))
+    );
 
     return JSON.parse(text);
 }
