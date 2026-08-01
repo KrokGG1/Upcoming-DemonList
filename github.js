@@ -11,12 +11,12 @@ async function loadGithubData() {
     const response = await fetch("./data.json");
 
     if (!response.ok) {
+    const text = await response.text();
 
-    const err = await response.json();
+    console.log("Status:", response.status);
+    console.log("Response:", text);
 
-    console.log("GitHub error:", err);
-
-    alert(JSON.stringify(err, null, 2));
+    alert(text);
 
     return;
 }
