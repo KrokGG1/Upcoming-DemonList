@@ -1,18 +1,18 @@
 {
   "defaultLevels": [
     {
-      "name": "Adramelech",
-      "creator": "FallingStar",
-      "wr": "11%",
-      "image": "images/Adramelech.png",
-      "link": "https://www.youtube.com/watch?v=dQ7c15HKszk"
-    },
-    {
       "name": "Sakupen End",
       "creator": "Nick24",
       "wr": "25%",
       "image": "images/Sakupen end.png",
       "link": "https://www.youtube.com/watch?v=oN-udpwLqng"
+    },
+    {
+      "name": "Adramelech",
+      "creator": "FallingStar",
+      "wr": "11%",
+      "image": "images/Adramelech.png",
+      "link": "https://www.youtube.com/watch?v=dQ7c15HKszk"
     },
     {
       "name": "Aeternus",
@@ -247,7 +247,7 @@
     {
       "separator": "Tidal Wave"
     },
-     {
+    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "49%",
@@ -290,7 +290,6 @@
       "link": "https://www.youtube.com/watch?v=dUKYJcemh-c"
     }
   ],
-
   "defaultLists": [
     {
       "name": "Current Top 10",
@@ -308,7 +307,6 @@
       "file": "list3"
     }
   ],
-
   "listLevels": {
     "list1": [
       {
@@ -372,7 +370,6 @@
         "link": "https://www.youtube.com/watch?v=20fYiqLAo_E"
       }
     ],
-
     "list2": [
       {
         "name": "Vehemence",
@@ -435,7 +432,6 @@
         "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
       }
     ],
-
     "list3": [
       {
         "name": "Rebirth The End",
@@ -450,16 +446,16 @@
         "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
       },
       {
-      "name": "Kingdom Of Miracalis",
-      "creator": "realvet",
-      "image": "images/Kingdom Of Miracalis.png",
-      "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
+        "name": "Kingdom Of Miracalis",
+        "creator": "realvet",
+        "image": "images/Kingdom Of Miracalis.png",
+        "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
       },
-       {
-      "name": "Tsunami",
-      "creator": "OniLinkGD",
-      "image": "images/Tsunami.png",
-      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      {
+        "name": "Tsunami",
+        "creator": "OniLinkGD",
+        "image": "images/Tsunami.png",
+        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
       },
       {
         "name": "Angelicide",
@@ -499,15 +495,14 @@
       }
     ]
   },
-
   "defaultChanges": [
     {
-        "name": "Herr Machine",
-        "icon": "🟣"
+      "name": "Herr Machine",
+      "icon": "🟣"
     },
     {
-        "name": "Antarctic Lights",
-        "icon": "🟣"
+      "name": "Antarctic Lights",
+      "icon": "🟣"
     }
   ]
 }
