@@ -2,7 +2,7 @@
 
 📘 List of Upcoming Extreme Demons from TOP 1 to TOP 10 difficulty
 
-📗 Opinion of top players was used during the placement
+📗 The top players opinions were used during the placement
 
 📙 The placement is not 100% accurate
 
