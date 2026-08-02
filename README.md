@@ -13,5 +13,7 @@
 # Other
 
 🔗 Global DemonList (Future) - https://demonlist.org/future
+
 🔗 Impossible Levels List - https://impossiblelevels.com/
+
 🔗 Upcoming Levels List - https://ull.pages.dev
