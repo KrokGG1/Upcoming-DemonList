@@ -1,6 +1,13 @@
 {
   "defaultLevels": [
     {
+      "name": "Rebirth The End",
+      "creator": "Narwall",
+      "wr": "N/A",
+      "image": "images/rte.png",
+      "link": "https://www.youtube.com/watch?v=W4dDG845in8"
+    },
+    {
       "name": "Adramelech",
       "creator": "FallingStar",
       "wr": "11%",
@@ -20,13 +27,6 @@
       "wr": "20%",
       "image": "images/Aeternus.png",
       "link": "https://www.youtube.com/watch?v=XjypbEY_2Aw"
-    },
-    {
-      "name": "Rebirth The End",
-      "creator": "Narwall",
-      "wr": "N/A",
-      "image": "images/rte.png",
-      "link": "https://www.youtube.com/watch?v=W4dDG845in8"
     },
     {
       "name": "Aquila Rift",
