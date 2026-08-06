@@ -57,18 +57,18 @@
       "link": "https://www.youtube.com/watch?v=8GLfrChGAhs"
     },
     {
-      "name": "Angelicide",
-      "creator": "zYuko",
-      "wr": "37%",
-      "image": "images/Angelicide.jpg",
-      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-    },
-    {
       "name": "Tsunami",
       "creator": "OniLinkGD",
       "wr": "N/A",
       "image": "images/Tsunami.png",
       "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+    },
+    {
+      "name": "Angelicide",
+      "creator": "zYuko",
+      "wr": "37%",
+      "image": "images/Angelicide.jpg",
+      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
     },
     {
       "name": "Sweeping Demon II",
@@ -151,6 +151,13 @@
       "link": "https://www.youtube.com/watch?v=h14lmGH31_M"
     },
     {
+      "name": "Tunnel of Serpent",
+      "creator": "Demi",
+      "wr": "60%",
+      "image": "images/Tunnel of serpent.png",
+      "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
+    },
+    {
       "name": "Silent Acropolis",
       "creator": "ThePurgatory",
       "wr": "99%",
@@ -159,13 +166,6 @@
     },
     {
       "separator": "Amethyst"
-    },
-    {
-      "name": "Tunnel of Serpent",
-      "creator": "Demi",
-      "wr": "60%",
-      "image": "images/Tunnel of serpent.png",
-      "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
     },
     {
       "name": "It Means Everything",
