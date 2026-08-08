@@ -151,6 +151,13 @@
       "link": "https://www.youtube.com/watch?v=h14lmGH31_M"
     },
     {
+      "name": "Eternal Silence",
+      "creator": "realvet",
+      "wr": "74%",
+      "image": "images/Eternal Silence.png",
+      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
+    },
+    {
       "name": "Tunnel of Serpent",
       "creator": "Demi",
       "wr": "60%",
@@ -163,13 +170,6 @@
       "wr": "99%",
       "image": "images/Silent Acropolis.png",
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
-    },
-    {
-      "name": "Eternal Silence",
-      "creator": "realvet",
-      "wr": "74%",
-      "image": "images/Eternal Silence.png",
-      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
     },
     {
       "separator": "Amethyst"
