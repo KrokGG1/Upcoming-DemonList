@@ -57,18 +57,18 @@
       "link": "https://www.youtube.com/watch?v=8GLfrChGAhs"
     },
     {
-      "name": "Tsunami",
-      "creator": "OniLinkGD",
-      "wr": "N/A",
-      "image": "images/Tsunami.png",
-      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
-    },
-    {
       "name": "Angelicide",
       "creator": "zYuko",
       "wr": "37%",
       "image": "images/Angelicide.jpg",
       "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+    },
+    {
+      "name": "Tsunami",
+      "creator": "OniLinkGD",
+      "wr": "N/A",
+      "image": "images/Tsunami.png",
+      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
     },
     {
       "name": "Sweeping Demon II",
@@ -503,6 +503,10 @@
     {
       "name": "Antarctic Lights",
       "icon": "🟣"
+    },
+    {
+      "name": "Scattered Faith",
+      "icon": "🟡"
     }
   ]
 }
