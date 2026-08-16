@@ -1,6 +1,13 @@
 {
   "defaultLevels": [
     {
+      "name": "Adramelech",
+      "creator": "FallingStar",
+      "wr": "11%",
+      "image": "images/Adramelech.png",
+      "link": "https://www.youtube.com/watch?v=dQ7c15HKszk"
+    },
+    {
       "name": "Sakupen End",
       "creator": "Nick24",
       "wr": "25%",
@@ -507,10 +514,6 @@
     {
       "name": "Scattered Faith",
       "icon": "🟡"
-    },
-    {
-      "name": "Adramelech",
-      "icon": "🟤"
     }
   ]
 }
