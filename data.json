@@ -165,6 +165,13 @@
       "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
     },
     {
+      "name": "Scattered Faith",
+      "creator": "Brittank88",
+      "wr": "N/A",
+      "image": "https://img.youtube.com/vi/q1VUKT9Sjrs/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=q1VUKT9Sjrs"
+    },
+    {
       "name": "Silent Acropolis",
       "creator": "ThePurgatory",
       "wr": "99%",
@@ -288,13 +295,6 @@
       "wr": "100%",
       "image": "images/Herr Machine.png",
       "link": "https://www.youtube.com/watch?v=dUKYJcemh-c"
-    },
-    {
-      "name": "Scattered Faith",
-      "creator": "Brittank88",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/q1VUKT9Sjrs/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=q1VUKT9Sjrs"
     }
   ],
   "defaultLists": [
