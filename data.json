@@ -245,14 +245,14 @@
       "link": "https://www.youtube.com/watch?v=oZfKkZ36L9Q"
     },
     {
-      "separator": "Tidal Wave"
-    },
-    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "49%",
       "image": "images/Escalator.png",
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
+    },
+    {
+      "separator": "Tidal Wave"
     },
     {
       "name": "Silent Oppenheimer",
@@ -503,10 +503,6 @@
     {
       "name": "Antarctic Lights",
       "icon": "🟣"
-    },
-    {
-      "name": "Aquamarine",
-      "icon": "🔵"
     }
   ]
 }
