@@ -137,13 +137,6 @@
       "link": "https://www.youtube.com/watch?v=ZYTwtriLkj8"
     },
     {
-      "name": "Silent Acropolis",
-      "creator": "ThePurgatory",
-      "wr": "99%",
-      "image": "images/Silent Acropolis.png",
-      "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
-    },
-    {
       "name": "Ascension to Heaven",
       "creator": "Blueskii",
       "wr": "20%",
@@ -170,6 +163,13 @@
       "wr": "60%",
       "image": "images/Tunnel of serpent.png",
       "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
+    },
+    {
+      "name": "Silent Acropolis",
+      "creator": "ThePurgatory",
+      "wr": "99%",
+      "image": "images/Silent Acropolis.png",
+      "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
     },
     {
       "separator": "Amethyst"
@@ -503,6 +503,10 @@
     {
       "name": "Antarctic Lights",
       "icon": "🟣"
+    },
+    {
+      "name": "Aquamarine",
+      "icon": "🔵"
     }
   ]
 }
