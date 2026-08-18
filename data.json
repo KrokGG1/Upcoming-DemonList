@@ -99,6 +99,13 @@
       "link": "https://www.youtube.com/watch?v=q1VUKT9Sjrs"
     },
     {
+      "name": "Artemis 13",
+      "creator": "nxhtrise",
+      "wr": "70%",
+      "image": "images/Artemis 13.png",
+      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
+    },
+    {
       "name": "Exasperation",
       "creator": "Thycket",
       "wr": "67%",
@@ -111,13 +118,6 @@
       "wr": "N/A",
       "image": "images/Scarlet Sirius.png",
       "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
-    },
-    {
-      "name": "Artemis 13",
-      "creator": "nxhtrise",
-      "wr": "70%",
-      "image": "images/Artemis 13.png",
-      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     },
     {
       "separator": "Society"
