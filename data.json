@@ -238,18 +238,18 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
-      "name": "Antarctic Lights",
-      "creator": "declanlc",
-      "wr": "100%",
-      "image": "images/Antarctic lights.png",
-      "link": "https://www.youtube.com/watch?v=oZfKkZ36L9Q"
-    },
-    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "49%",
       "image": "images/Escalator.png",
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
+    },
+    {
+      "name": "Antarctic Lights",
+      "creator": "declanlc",
+      "wr": "100%",
+      "image": "images/Antarctic lights.png",
+      "link": "https://www.youtube.com/watch?v=oZfKkZ36L9Q"
     },
     {
       "separator": "Tidal Wave"
