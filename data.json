@@ -130,13 +130,6 @@
       "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
     },
     {
-      "name": "Azure Flare",
-      "creator": "Aeden",
-      "wr": "49%",
-      "image": "images/Azure Flare.jpg",
-      "link": "https://www.youtube.com/watch?v=ZYTwtriLkj8"
-    },
-    {
       "name": "Eternal Silence",
       "creator": "realvet",
       "wr": "74%",
@@ -144,11 +137,25 @@
       "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
     },
     {
+      "name": "Azure Flare",
+      "creator": "Aeden",
+      "wr": "49%",
+      "image": "images/Azure Flare.jpg",
+      "link": "https://www.youtube.com/watch?v=ZYTwtriLkj8"
+    },
+    {
       "name": "Silent Acropolis",
       "creator": "ThePurgatory",
       "wr": "99%",
       "image": "images/Silent Acropolis.png",
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
+    },
+    {
+      "name": "Ascension to Heaven",
+      "creator": "Blueskii",
+      "wr": "20%",
+      "image": "images/ATH.png",
+      "link": "https://www.youtube.com/watch?v=ExbdlSBKXu4"
     },
     {
       "name": "Banshee",
