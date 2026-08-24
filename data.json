@@ -375,11 +375,11 @@
         "image": "images/Sweeping Demon II.png",
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
-      {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "images/Heliopolis.png",
-        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+       {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
         "name": "KOCMOC Unleashed",
@@ -388,10 +388,16 @@
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
-        "name": "Grief",
-        "creator": "IdEDCave",
-        "image": "images/Grief.png",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+      },
+       {
+        "name": "Artemis 13",
+        "creator": "nxhtrise",
+        "image": "images/Artemis 13.png",
+        "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
       },
       {
         "name": "Exasperation",
@@ -449,11 +455,11 @@
         "image": "images/Sweeping Demon II.png",
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
-      {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "images/Heliopolis.png",
-        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
+       {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
         "name": "KOCMOC Unleashed",
@@ -462,16 +468,16 @@
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
-        "name": "Grief",
-        "creator": "IdEDCave",
-        "image": "images/Grief.png",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
       },
       {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "images/Exasperation.png",
-        "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+        "name": "Artemis 13",
+        "creator": "nxhtrise",
+        "image": "images/Artemis 13.png",
+        "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
       }
     ]
   },
