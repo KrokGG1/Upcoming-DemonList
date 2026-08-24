@@ -139,7 +139,6 @@ async function addListLevel() {
             listLevels.push({
                 name: name,
                 creator: creator,
-                wr: "",
                 image: thumbnail,
                 link: link
             });
@@ -157,7 +156,6 @@ async function addListLevel() {
     listLevels.push({
         name: name,
         creator: creator,
-        wr: "",
         image: image,
         link: link
     });
@@ -205,9 +203,6 @@ function editListLevel(index) {
 
     document.getElementById("eLink").value =
         level.link || "";
-
-    document.getElementById("eWR").value =
-        level.wr || "";
 
     document.getElementById("editor").style.display =
         "flex";
@@ -394,11 +389,6 @@ async function saveListEdit() {
         .value
         .trim();
 
-    const wr = document
-        .getElementById("eWR")
-        .value
-        .trim();
-
     if (!name) {
         alert("Enter level name");
         return;
@@ -406,7 +396,6 @@ async function saveListEdit() {
 
     level.name = name;
     level.creator = creator;
-    level.wr = wr;
     level.link = link;
 
 
