@@ -65,10 +65,6 @@ function renderListLevels() {
 
                     <p class="creator">${level.creator}</p>
 
-                    <p class="wr">
-                        WR: ${level.wr || ""}
-                    </p>
-
                     ${adminMode ? `
                         <div class="buttons">
 
