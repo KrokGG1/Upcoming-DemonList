@@ -1,24 +1,31 @@
 let listsortable = null;
 const listid = new URLSearchParams(location.search).get("id");
-let listLevels = [];
 
-function init() {
-
-    listLevels = JSON.parse(localStorage.getItem("levels_" + listid));
-
-if (!listLevels || listLevels.length === 0) {
-    listLevels = structuredClone(DATA.listLevels[listid] || []);
+if (typeof listLevels === "undefined") {
+    let listLevels = [];
 }
+
+async function initListPage() {
+
+    if (!listLevels || !Array.isArray(listLevels)) {
+        listLevels = [];
+    }
 
     renderListLevels();
-
 }
 
-function saveListLevels() {
-    localStorage.setItem(
-        "levels_" + listid,
-        JSON.stringify(listLevels)
-    );
+async function saveListLevels() {
+
+    if (listid) {
+        localStorage.setItem(
+            "levels_" + listid,
+            JSON.stringify(listLevels)
+        );
+    }
+
+    if (typeof save === "function") {
+        await save();
+    }
 }
 
 function renderListLevels() {
@@ -33,16 +40,47 @@ function renderListLevels() {
 
     listLevels.forEach((level, index) => {
 
-        if (!level) {
-        console.error("Broken level:", index, level);
-        return;
-    }
+        if (!level) return;
+
+        if (level.separator) {
+
+            container.innerHTML += `
+                <div class="dfc">
+                    <p>
+                        - - - - - - - - ${level.separator} - - - - - - - -
+                    </p>
+
+                    ${adminMode ? `
+                        <button
+                            class="spbut"
+                            onclick="event.stopPropagation(); editSeparator(${index})">
+                            ✏️
+                        </button>
+
+                        <button
+                            class="spbut"
+                            onclick="event.stopPropagation(); deleteListLevel(${index})">
+                            🗑️
+                        </button>
+                    ` : ""}
+                </div>
+            `;
+
+            return;
+        }
 
         container.innerHTML += `
-            <div class="level">
+            <div
+                class="level"
+                draggable="${adminMode}"
+                data-index="${index}"
+            >
 
                 <a href="${level.link}" target="_blank">
-                    <img class="image" src="${level.image}">
+                    <img
+                        class="image"
+                        src="${level.image}"
+                    >
                 </a>
 
                 <div class="level-name">
@@ -54,18 +92,34 @@ function renderListLevels() {
 
                     <p class="creator">${level.creator}</p>
 
+                    <p class="wr">
+                        WR: ${level.wr || ""}
+                    </p>
+
                     ${adminMode ? `
-                    <div class="buttons">
+                        <div class="buttons">
 
-                        <button onclick="event.preventDefault();moveUp(${index})">⬆</button>
+                            <button
+                                onclick="event.preventDefault(); event.stopPropagation(); listMoveUp(${index})">
+                                ⬆
+                            </button>
 
-                        <button onclick="event.preventDefault();moveDown(${index})">⬇</button>
+                            <button
+                                onclick="event.preventDefault(); event.stopPropagation(); listMoveDown(${index})">
+                                ⬇
+                            </button>
 
-                        <button onclick="event.preventDefault();editListLevel(${index})">✏️</button>
+                            <button
+                                onclick="event.preventDefault(); event.stopPropagation(); editListLevel(${index})">
+                                ✏️
+                            </button>
 
-                        <button onclick="event.preventDefault();deleteListLevel(${index})">🗑️</button>
+                            <button
+                                onclick="event.preventDefault(); event.stopPropagation(); deleteListLevel(${index})">
+                                🗑️
+                            </button>
 
-                    </div>
+                        </div>
                     ` : ""}
 
                 </div>
@@ -77,55 +131,72 @@ function renderListLevels() {
 
     });
 
-    initSortable()
-
+    initListSortable();
 }
 
-function addListLevel() {
+async function addListLevel() {
 
-    const name = document.getElementById("levelName").value.trim();
-    const creator = document.getElementById("creator").value.trim();
-    const link = document.getElementById("link").value.trim();
+    const name = document
+        .getElementById("levelName")
+        .value
+        .trim();
 
-    let image = document.getElementById("image").value.trim();
+    const creator = document
+        .getElementById("creator")
+        .value
+        .trim();
 
-    if (name.trim() === "") return;
+    const link = document
+        .getElementById("link")
+        .value
+        .trim();
 
-    if (image === "" && link !== "") {
+    let image = document
+        .getElementById("image")
+        .value
+        .trim();
 
-        loadYoutubeThumbnail(link, function(thumbnail) {
+    if (!name) {
+        alert("Enter level name");
+        return;
+    }
+
+
+    // Если картинки нет, но есть YouTube ссылка
+    if (!image && link) {
+
+        loadYoutubeThumbnail(link, async function(thumbnail) {
 
             listLevels.push({
-                name,
-                creator,
+                name: name,
+                creator: creator,
+                wr: "",
                 image: thumbnail,
-                link
+                link: link
             });
 
-            saveListLevels();
+            clearAddForm();
+
+            await saveListLevels();
             renderListLevels();
 
         });
 
-    } else {
-
-        listLevels.push({
-            name,
-            creator,
-            image,
-            link
-        });
-
-        saveListLevels();
-        renderListLevels();
-
+        return;
     }
 
-    document.getElementById("levelName").value = "";
-    document.getElementById("creator").value = "";
-    document.getElementById("image").value = "";
-    document.getElementById("link").value = "";
+    listLevels.push({
+        name: name,
+        creator: creator,
+        wr: "",
+        image: image,
+        link: link
+    });
 
+    clearAddForm();
+
+    await saveListLevels();
+    renderListLevels();
 }
 
 function deleteListLevel(index) {
@@ -143,46 +214,111 @@ let editingListIndex = -1;
 
 function editListLevel(index) {
 
+    if (
+        index < 0 ||
+        index >= listLevels.length
+    ) {
+        return;
+    }
+
     editingListIndex = index;
 
-    document.getElementById("eName").value = listLevels[index].name;
-    document.getElementById("eCreator").value = listLevels[index].creator;
-    document.getElementById("eImage").value = listLevels[index].image;
-    document.getElementById("eLink").value = listLevels[index].link;
+    const level = listLevels[index];
 
-    document.getElementById("editor").style.display = "flex";
+    document.getElementById("eName").value =
+        level.name || "";
+
+    document.getElementById("eCreator").value =
+        level.creator || "";
+
+    document.getElementById("eImage").value =
+        level.image || "";
+
+    document.getElementById("eLink").value =
+        level.link || "";
+
+    document.getElementById("eWR").value =
+        level.wr || "";
+
+    document.getElementById("editor").style.display =
+        "flex";
+}
+
+
+function clearAddForm() {
+
+    const fields = [
+        "levelName",
+        "creator",
+        "image",
+        "link"
+    ];
+
+    fields.forEach(id => {
+
+        const element = document.getElementById(id);
+
+        if (element) {
+            element.value = "";
+        }
+
+    });
 
 }
 
-function moveUp(index) {
+async function listMoveUp(index) {
 
-    if (index === 0) return;
+    if (
+        !Number.isInteger(index) ||
+        index <= 0 ||
+        index >= listLevels.length
+    ) {
+        return;
+    }
 
-    [listLevels[index], listLevels[index - 1]] =
-    [listLevels[index - 1], listLevels[index]];
+    [
+        listLevels[index - 1],
+        listLevels[index]
+    ] = [
+        listLevels[index],
+        listLevels[index - 1]
+    ];
 
-    saveListLevels();
+    await saveListLevels();
+
     renderListLevels();
-
 }
 
-function moveDown(index) {
+async function listMoveDown(index) {
 
-    if (index === listLevels.length - 1) return;
+    if (
+        !Number.isInteger(index) ||
+        index < 0 ||
+        index >= listLevels.length - 1
+    ) {
+        return;
+    }
 
-    [listLevels[index], listLevels[index + 1]] =
-    [listLevels[index + 1], listLevels[index]];
+    [
+        listLevels[index],
+        listLevels[index + 1]
+    ] = [
+        listLevels[index + 1],
+        listLevels[index]
+    ];
 
-    saveListLevels();
+    await saveListLevels();
+
     renderListLevels();
-
 }
 
-function initSortable() {
+function initListSortable() {
 
     if (listsortable) {
+
         listsortable.destroy();
         listsortable = null;
+
     }
 
     if (!adminMode) return;
@@ -195,13 +331,60 @@ function initSortable() {
 
         animation: 200,
 
-        onEnd(evt) {
+        draggable: ".level",
 
-            const moved = listLevels.splice(evt.oldIndex, 1)[0];
+        filter: ".buttons, .buttons button, a",
 
-            listLevels.splice(evt.newIndex, 0, moved);
+        preventOnFilter: false,
 
-            saveListLevels();
+        onEnd: async function(evt) {
+
+            if (
+                evt.oldIndex == null ||
+                evt.newIndex == null ||
+                evt.oldIndex === evt.newIndex
+            ) {
+                return;
+            }
+
+            /*
+             * Важно:
+             * используем только .level элементы,
+             * поэтому separator больше не ломает индексы.
+             */
+
+            const levelElements = [
+                ...container.querySelectorAll(".level")
+            ];
+
+            const oldElement = levelElements[evt.oldIndex];
+
+            const newElement = levelElements[evt.newIndex];
+
+            if (!oldElement || !newElement) {
+                return;
+            }
+
+            const oldDataIndex =
+                Number(oldElement.dataset.index);
+
+            const newDataIndex =
+                Number(newElement.dataset.index);
+
+            if (
+                Number.isNaN(oldDataIndex) ||
+                Number.isNaN(newDataIndex)
+            ) {
+                return;
+            }
+
+            const moved =
+                listLevels.splice(oldDataIndex, 1)[0];
+
+            listLevels.splice(newDataIndex, 0, moved);
+
+            await saveListLevels();
+
             renderListLevels();
 
         }
@@ -210,31 +393,66 @@ function initSortable() {
 
 }
 
-function saveListEdit() {
 
-    const image = document.getElementById("eImage").value;
+async function saveListEdit() {
 
-    listLevels[editingListIndex].name =
-        document.getElementById("eName").value;
+    if (
+        editingListIndex < 0 ||
+        editingListIndex >= listLevels.length
+    ) {
+        return;
+    }
 
-    listLevels[editingListIndex].creator =
-        document.getElementById("eCreator").value;
+    const level = listLevels[editingListIndex];
 
-    listLevels[editingListIndex].image = image;
+    const name = document
+        .getElementById("eName")
+        .value
+        .trim();
 
-    listLevels[editingListIndex].link =
-        document.getElementById("eLink").value;
+    const creator = document
+        .getElementById("eCreator")
+        .value
+        .trim();
 
-    if (image === "" && listLevels[editingListIndex].link !== "") {
+    const image = document
+        .getElementById("eImage")
+        .value
+        .trim();
+
+    const link = document
+        .getElementById("eLink")
+        .value
+        .trim();
+
+    const wr = document
+        .getElementById("eWR")
+        .value
+        .trim();
+
+    if (!name) {
+        alert("Enter level name");
+        return;
+    }
+
+    level.name = name;
+    level.creator = creator;
+    level.wr = wr;
+    level.link = link;
+
+
+    if (!image && link) {
 
         loadYoutubeThumbnail(
-            listLevels[editingListIndex].link,
-            function(thumbnail) {
+            link,
+            async function(thumbnail) {
 
-                listLevels[editingListIndex].image = thumbnail;
+                level.image = thumbnail;
 
-                saveListLevels();
+                await saveListLevels();
+
                 renderListLevels();
+
                 closeEditor();
 
             }
@@ -243,8 +461,18 @@ function saveListEdit() {
         return;
     }
 
-    saveListLevels();
+    level.image = image;
+
+    await saveListLevels();
+
     renderListLevels();
+
     closeEditor();
 
+    editingListIndex = -1;
 }
+
+document.addEventListener(
+    "DOMContentLoaded",
+    initListPage
+);
