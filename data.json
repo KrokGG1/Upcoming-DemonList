@@ -376,16 +376,16 @@
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "images/Heliopolis.png",
-        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
-      },
-      {
         "name": "Grief",
         "creator": "IdEDCave",
         "image": "images/Grief.png",
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
       },
       {
         "name": "KOCMOC Unleashed",
