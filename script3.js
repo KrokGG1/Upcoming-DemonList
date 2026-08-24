@@ -42,33 +42,6 @@ function renderListLevels() {
 
         if (!level) return;
 
-        if (level.separator) {
-
-            container.innerHTML += `
-                <div class="dfc">
-                    <p>
-                        - - - - - - - - ${level.separator} - - - - - - - -
-                    </p>
-
-                    ${adminMode ? `
-                        <button
-                            class="spbut"
-                            onclick="event.stopPropagation(); editSeparator(${index})">
-                            ✏️
-                        </button>
-
-                        <button
-                            class="spbut"
-                            onclick="event.stopPropagation(); deleteListLevel(${index})">
-                            🗑️
-                        </button>
-                    ` : ""}
-                </div>
-            `;
-
-            return;
-        }
-
         container.innerHTML += `
             <div
                 class="level"
