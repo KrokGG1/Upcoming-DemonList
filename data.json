@@ -382,16 +382,16 @@
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "images/Heliopolis.png",
-        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
-      },
-      {
         "name": "KOCMOC Unleashed",
         "creator": "cherryteam",
         "image": "images/KOCMOC Unleashed.png",
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "images/Heliopolis.png",
+        "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
       },
       {
         "name": "Exasperation",
