@@ -204,7 +204,7 @@
       "wr": "73%",
       "image": "images/Ouroboros.png",
       "link": "https://www.youtube.com/watch?v=9T8-r-nZ4Og"
-    },
+    }
   ],
   "defaultLists": [
     {
@@ -402,7 +402,7 @@
         "creator": "nxhtrise",
         "image": "images/Artemis 13.png",
         "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
-      }
+      },
       {
         "name": "Exasperation",
         "creator": "Thycket",
