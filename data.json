@@ -56,7 +56,7 @@
       "image": "images/Grief.png",
       "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
     },
-     {
+    {
       "name": "Tsunami",
       "creator": "OniLinkGD",
       "wr": "N/A",
@@ -175,6 +175,13 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
+      "name": "Silent Oppenheimer",
+      "creator": "Feijoaoa",
+      "wr": "67%",
+      "image": "images/Silent oppenheimer.png",
+      "link": "https://www.youtube.com/watch?v=Q-IT8xuqU9Q"
+    },
+    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "49%",
@@ -183,13 +190,6 @@
     },
     {
       "separator": "Tidal Wave"
-    },
-    {
-      "name": "Silent Oppenheimer",
-      "creator": "Feijoaoa",
-      "wr": "67%",
-      "image": "images/Silent oppenheimer.png",
-      "link": "https://www.youtube.com/watch?v=Q-IT8xuqU9Q"
     },
     {
       "name": "Cyberpsychosis",
