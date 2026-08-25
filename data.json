@@ -106,18 +106,18 @@
       "link": "https://www.youtube.com/watch?v=q1VUKT9Sjrs"
     },
     {
-      "name": "Exasperation",
-      "creator": "Thycket",
-      "wr": "67%",
-      "image": "images/Exasperation.png",
-      "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
-    },
-    {
       "name": "Scarlet Sirius",
       "creator": "TrueOmega",
       "wr": "N/A",
       "image": "images/Scarlet Sirius.png",
       "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
+    },
+    {
+      "name": "Exasperation",
+      "creator": "Thycket",
+      "wr": "67%",
+      "image": "images/Exasperation.png",
+      "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
     },
     {
       "separator": "Society"
