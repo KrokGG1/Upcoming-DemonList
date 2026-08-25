@@ -350,28 +350,16 @@
     ],
     "list3": [
       {
-        "name": "Rebirth The End",
-        "creator": "Narwall",
-        "image": "images/rte.png",
-        "link": "https://www.youtube.com/watch?v=W4dDG845in8"
-      },
-      {
-        "name": "Vehemence",
-        "creator": "zYuko",
-        "image": "images/Vehemence.png",
-        "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
-      },
-      {
         "name": "Kingdom Of Miracalis",
         "creator": "realvet",
         "image": "images/Kingdom Of Miracalis.png",
         "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
       },
       {
-        "name": "Tsunami",
-        "creator": "OniLinkGD",
-        "image": "images/Tsunami.png",
-        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+        "name": "Vehemence",
+        "creator": "zYuko",
+        "image": "images/Vehemence.png",
+        "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
       },
       {
         "name": "Angelicide",
@@ -392,6 +380,12 @@
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
+        "name": "Tsunami",
+        "creator": "OniLinkGD",
+        "image": "images/Tsunami.png",
+        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      },
+      {
         "name": "KOCMOC Unleashed",
         "creator": "cherryteam",
         "image": "images/KOCMOC Unleashed.png",
@@ -409,17 +403,15 @@
         "image": "images/Artemis 13.png",
         "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
       }
+      {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "images/Exasperation.png",
+        "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+      }
     ]
   },
   "defaultChanges": [
-    {
-      "name": "Herr Machine",
-      "icon": "🟣"
-    },
-    {
-      "name": "Antarctic Lights",
-      "icon": "🟣"
-    },
     {
       "name": "Aquamarine",
       "icon": "🔵"
