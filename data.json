@@ -161,18 +161,18 @@
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
-      "name": "Silent Circles",
-      "creator": "Starchman",
-      "wr": "85%",
-      "image": "images/SCs.jpg",
-      "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
-    },
-    {
       "name": "Labyrinth",
       "creator": "SyQual",
       "wr": "68%",
       "image": "images/Labyrinth.png",
       "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
+    },
+    {
+      "name": "Silent Circles",
+      "creator": "Starchman",
+      "wr": "85%",
+      "image": "images/SCs.jpg",
+      "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
       "name": "Escalator",
