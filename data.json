@@ -22,20 +22,6 @@
       "link": "https://www.youtube.com/watch?v=W4dDG845in8"
     },
     {
-      "name": "Aquila Rift",
-      "creator": "Zoink Doink",
-      "wr": "N/A",
-      "image": "images/Aquila Rift.png",
-      "link": "https://www.youtube.com/watch?v=FQfTPfZYldY"
-    },
-    {
-      "name": "Vehemence",
-      "creator": "zYuko",
-      "wr": "41%",
-      "image": "images/Vehemence.png",
-      "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
-    },
-    {
       "name": "Kingdom Of Miracalis",
       "creator": "realvet",
       "wr": "N/A",
@@ -43,18 +29,11 @@
       "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
     },
     {
-      "name": "The Human Limit",
-      "creator": "The Elite",
-      "wr": "24%",
-      "image": "images/the human limit.png",
-      "link": "https://www.youtube.com/watch?v=8GLfrChGAhs"
-    },
-    {
-      "name": "Tsunami",
-      "creator": "OniLinkGD",
-      "wr": "N/A",
-      "image": "images/Tsunami.png",
-      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      "name": "Vehemence",
+      "creator": "zYuko",
+      "wr": "41%",
+      "image": "images/Vehemence.png",
+      "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
     },
     {
       "name": "Angelicide",
@@ -76,6 +55,13 @@
       "wr": "97%",
       "image": "images/Grief.png",
       "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+    },
+     {
+      "name": "Tsunami",
+      "creator": "OniLinkGD",
+      "wr": "N/A",
+      "image": "images/Tsunami.png",
+      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
     },
     {
       "name": "KOCMOC Unleashed",
@@ -99,20 +85,6 @@
       "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     },
     {
-      "name": "Scattered Faith",
-      "creator": "Brittank88",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/q1VUKT9Sjrs/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=q1VUKT9Sjrs"
-    },
-    {
-      "name": "Scarlet Sirius",
-      "creator": "TrueOmega",
-      "wr": "N/A",
-      "image": "images/Scarlet Sirius.png",
-      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
-    },
-    {
       "name": "Exasperation",
       "creator": "Thycket",
       "wr": "67%",
@@ -130,20 +102,6 @@
       "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
     },
     {
-      "name": "Eternal Silence",
-      "creator": "realvet",
-      "wr": "74%",
-      "image": "images/Eternal Silence.png",
-      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
-    },
-    {
-      "name": "Azure Flare",
-      "creator": "Aeden",
-      "wr": "49%",
-      "image": "images/Azure Flare.jpg",
-      "link": "https://www.youtube.com/watch?v=ZYTwtriLkj8"
-    },
-    {
       "name": "Silent Acropolis",
       "creator": "ThePurgatory",
       "wr": "99%",
@@ -151,11 +109,21 @@
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
     },
     {
-      "name": "Banshee",
-      "creator": "Nikrodox",
-      "wr": "86%",
-      "image": "images/banshee.png",
-      "link": "https://www.youtube.com/watch?v=h14lmGH31_M"
+      "name": "Scarlet Sirius",
+      "creator": "TrueOmega",
+      "wr": "N/A",
+      "image": "images/Scarlet Sirius.png",
+      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
+    },
+    {
+      "name": "Eternal Silence",
+      "creator": "realvet",
+      "wr": "74%",
+      "image": "images/Eternal Silence.png",
+      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
+    },
+    {
+      "separator": "Amethyst"
     },
     {
       "name": "Tunnel of Serpent",
@@ -165,7 +133,11 @@
       "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
     },
     {
-      "separator": "Amethyst"
+      "name": "Fairy Knife Hell",
+      "creator": "EternaswipVMAX",
+      "wr": "37%",
+      "image": "images/Fairy Knife Hell.png",
+      "link": "https://www.youtube.com/watch?v=Ts5ZDH6ueX4"
     },
     {
       "name": "It Means Everything",
@@ -175,20 +147,6 @@
       "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
     },
     {
-      "name": "Silent Clubstep II",
-      "creator": "Sailent",
-      "wr": "31%",
-      "image": "images/Silent Clubstep II.png",
-      "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
-    },
-    {
-      "name": "Fairy Knife Hell",
-      "creator": "EternaswipVMAX",
-      "wr": "37%",
-      "image": "images/Fairy Knife Hell.png",
-      "link": "https://www.youtube.com/watch?v=Ts5ZDH6ueX4"
-    },
-    {
       "name": "Wrath",
       "creator": "cherryteam",
       "wr": "N/A",
@@ -196,18 +154,11 @@
       "link": "https://www.youtube.com/watch?v=-jvx1MJTP-Q"
     },
     {
-      "name": "Silent Circles",
-      "creator": "cherryteam",
-      "wr": "N/A",
-      "image": "images/SCc.png",
-      "link": "https://www.youtube.com/watch?v=_PKoLv-BMIo"
-    },
-    {
-      "name": "Redemption",
-      "creator": "cherryteam",
-      "wr": "35%",
-      "image": "images/Redemption.png",
-      "link": "https://www.youtube.com/watch?v=NGMluwJ3f0s"
+      "name": "Silent Clubstep II",
+      "creator": "Sailent",
+      "wr": "31%",
+      "image": "images/Silent Clubstep II.png",
+      "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
       "name": "Labyrinth",
@@ -215,13 +166,6 @@
       "wr": "68%",
       "image": "images/Labyrinth.png",
       "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
-      "name": "Furioso",
-      "creator": "cherryteam",
-      "wr": "N/A",
-      "image": "images/Furioso.png",
-      "link": "https://www.youtube.com/watch?v=-jrmJssOYV8"
     },
     {
       "name": "Silent Circles",
@@ -261,20 +205,6 @@
       "image": "images/Ouroboros.png",
       "link": "https://www.youtube.com/watch?v=9T8-r-nZ4Og"
     },
-    {
-      "name": "Injury",
-      "creator": "greafer",
-      "wr": "74%",
-      "image": "images/injury.png",
-      "link": "https://www.youtube.com/watch?v=bqZL6QKsDZI"
-    },
-    {
-      "name": "Herr Machine",
-      "creator": "HerrTeam",
-      "wr": "100%",
-      "image": "images/Herr Machine.png",
-      "link": "https://www.youtube.com/watch?v=dUKYJcemh-c"
-    }
   ],
   "defaultLists": [
     {
