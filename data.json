@@ -161,13 +161,6 @@
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
-      "name": "Labyrinth",
-      "creator": "SyQual",
-      "wr": "68%",
-      "image": "images/Labyrinth.png",
-      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
       "name": "Silent Circles",
       "creator": "Starchman",
       "wr": "85%",
@@ -175,11 +168,11 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
-      "name": "Silent Oppenheimer",
-      "creator": "Feijoaoa",
-      "wr": "67%",
-      "image": "images/Silent oppenheimer.png",
-      "link": "https://www.youtube.com/watch?v=Q-IT8xuqU9Q"
+      "name": "Labyrinth",
+      "creator": "SyQual",
+      "wr": "68%",
+      "image": "images/Labyrinth.png",
+      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
     },
     {
       "name": "Escalator",
@@ -190,6 +183,13 @@
     },
     {
       "separator": "Tidal Wave"
+    },
+    {
+      "name": "Silent Oppenheimer",
+      "creator": "Feijoaoa",
+      "wr": "67%",
+      "image": "images/Silent oppenheimer.png",
+      "link": "https://www.youtube.com/watch?v=Q-IT8xuqU9Q"
     },
     {
       "name": "Cyberpsychosis",
