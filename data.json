@@ -154,18 +154,18 @@
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
-      "name": "Wrath",
-      "creator": "cherryteam",
-      "wr": "N/A",
-      "image": "images/Wrath.png",
-      "link": "https://www.youtube.com/watch?v=-jvx1MJTP-Q"
-    },
-    {
       "name": "Silent Circles",
       "creator": "Starchman",
       "wr": "85%",
       "image": "images/SCs.jpg",
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
+    },
+    {
+      "name": "Wrath",
+      "creator": "cherryteam",
+      "wr": "N/A",
+      "image": "images/Wrath.png",
+      "link": "https://www.youtube.com/watch?v=-jvx1MJTP-Q"
     },
     {
       "name": "Labyrinth",
