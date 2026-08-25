@@ -140,18 +140,18 @@
       "link": "https://www.youtube.com/watch?v=Ts5ZDH6ueX4"
     },
     {
-      "name": "It Means Everything",
-      "creator": "Vel",
-      "wr": "74%",
-      "image": "images/IME.png",
-      "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
-    },
-    {
       "name": "Silent Clubstep II",
       "creator": "Sailent",
       "wr": "31%",
       "image": "images/Silent Clubstep II.png",
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
+    },
+    {
+      "name": "It Means Everything",
+      "creator": "Vel",
+      "wr": "74%",
+      "image": "images/IME.png",
+      "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
     },
     {
       "name": "Wrath",
@@ -160,7 +160,7 @@
       "image": "images/Wrath.png",
       "link": "https://www.youtube.com/watch?v=-jvx1MJTP-Q"
     },
-{
+    {
       "name": "Silent Circles",
       "creator": "Starchman",
       "wr": "85%",
