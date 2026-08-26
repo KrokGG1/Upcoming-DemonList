@@ -57,18 +57,18 @@
       "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
     },
     {
-      "name": "KOCMOC Unleashed",
-      "creator": "cherryteam",
-      "wr": "69%",
-      "image": "images/KOCMOC Unleashed.png",
-      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-    },
-    {
       "name": "Tsunami",
       "creator": "OniLinkGD",
       "wr": "N/A",
       "image": "images/Tsunami.png",
       "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+    },
+    {
+      "name": "KOCMOC Unleashed",
+      "creator": "cherryteam",
+      "wr": "69%",
+      "image": "images/KOCMOC Unleashed.png",
+      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
       "name": "Heliopolis",
