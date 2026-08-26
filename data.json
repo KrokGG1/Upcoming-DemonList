@@ -168,18 +168,18 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
-      "name": "Labyrinth",
-      "creator": "SyQual",
-      "wr": "68%",
-      "image": "images/Labyrinth.png",
-      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "49%",
       "image": "images/Escalator.png",
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
+    },
+    {
+      "name": "Labyrinth",
+      "creator": "SyQual",
+      "wr": "68%",
+      "image": "images/Labyrinth.png",
+      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
     },
     {
       "separator": "Tidal Wave"
