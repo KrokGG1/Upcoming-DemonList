@@ -232,16 +232,16 @@
         "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
       },
       {
-        "name": "Amethyst",
-        "creator": "iMist",
-        "image": "images/Amethyst.png",
-        "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
-      },
-      {
         "name": "Thinking Space II",
         "creator": "CairoX",
         "image": "images/TSII.png",
         "link": "https://www.youtube.com/watch?v=CELNmHwln_c"
+      },
+      {
+        "name": "Amethyst",
+        "creator": "iMist",
+        "image": "images/Amethyst.png",
+        "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
       },
       {
         "name": "Flamewall",
