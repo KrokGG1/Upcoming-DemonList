@@ -374,16 +374,16 @@
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
       {
-        "name": "Grief",
-        "creator": "IdEDCave",
-        "image": "images/Grief.png",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
-      },
-      {
         "name": "Tsunami",
         "creator": "OniLinkGD",
         "image": "images/Tsunami.png",
         "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      },
+      {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
         "name": "KOCMOC Unleashed",
