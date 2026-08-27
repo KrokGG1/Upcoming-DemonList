@@ -95,18 +95,18 @@
       "separator": "Society"
     },
     {
-      "name": "Misanthrope",
-      "creator": "Brittank88",
-      "wr": "48%",
-      "image": "images/Misanthrope.png",
-      "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
-    },
-    {
       "name": "Silent Acropolis",
       "creator": "ThePurgatory",
       "wr": "99%",
       "image": "images/Silent Acropolis.png",
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
+    },
+    {
+      "name": "Misanthrope",
+      "creator": "Brittank88",
+      "wr": "48%",
+      "image": "images/Misanthrope.png",
+      "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
     },
     {
       "name": "Scarlet Sirius",
