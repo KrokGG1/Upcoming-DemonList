@@ -36,18 +36,18 @@
       "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
     },
     {
-      "name": "Angelicide",
-      "creator": "zYuko",
-      "wr": "37%",
-      "image": "images/Angelicide.jpg",
-      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-    },
-    {
       "name": "Sweeping Demon II",
       "creator": "Temp",
       "wr": "86%",
       "image": "images/Sweeping Demon II.png",
       "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+    },
+    {
+      "name": "Angelicide",
+      "creator": "zYuko",
+      "wr": "37%",
+      "image": "images/Angelicide.jpg",
+      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
     },
     {
       "name": "Grief",
@@ -80,7 +80,7 @@
     {
       "name": "Artemis 13",
       "creator": "nxhtrise",
-      "wr": "79%",
+      "wr": "73%",
       "image": "images/Artemis 13.png",
       "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     },
