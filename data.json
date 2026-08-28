@@ -36,18 +36,18 @@
       "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
     },
     {
-      "name": "Sweeping Demon II",
-      "creator": "Temp",
-      "wr": "86%",
-      "image": "images/Sweeping Demon II.png",
-      "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-    },
-    {
       "name": "Angelicide",
       "creator": "zYuko",
       "wr": "37%",
       "image": "images/Angelicide.jpg",
       "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+    },
+    {
+      "name": "Sweeping Demon II",
+      "creator": "Temp",
+      "wr": "86%",
+      "image": "images/Sweeping Demon II.png",
+      "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
     },
     {
       "name": "Grief",
