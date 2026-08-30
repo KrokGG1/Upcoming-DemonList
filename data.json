@@ -250,16 +250,16 @@
         "link": "https://www.youtube.com/watch?v=x4Io4zkWVRw"
       },
       {
-        "name": "Green Bullet",
-        "creator": "cherryteam",
-        "image": "images/Green Bullet.png",
-        "link": "https://www.youtube.com/watch?v=JG-qcvVkZFw"
-      },
-      {
         "name": "Tidal wave",
         "creator": "OniLinkGD",
         "image": "images/TW.png",
         "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
+      },
+      {
+        "name": "Green Bullet",
+        "creator": "cherryteam",
+        "image": "images/Green Bullet.png",
+        "link": "https://www.youtube.com/watch?v=JG-qcvVkZFw"
       },
       {
         "name": "ORBIT",
