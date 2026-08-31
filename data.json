@@ -78,13 +78,6 @@
       "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
     },
     {
-      "name": "Artemis 13",
-      "creator": "nxhtrise",
-      "wr": "82%",
-      "image": "images/Artemis 13.png",
-      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
-    },
-    {
       "name": "Exasperation",
       "creator": "Thycket",
       "wr": "67%",
@@ -204,6 +197,13 @@
       "wr": "73%",
       "image": "images/Ouroboros.png",
       "link": "https://www.youtube.com/watch?v=9T8-r-nZ4Og"
+    },
+    {
+      "name": "Artemis 13",
+      "creator": "nxhtrise",
+      "wr": "86%",
+      "image": "images/Artemis 13.png",
+      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     }
   ],
   "defaultLists": [
@@ -324,12 +324,6 @@
         "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
       },
       {
-        "name": "Artemis 13",
-        "creator": "nxhtrise",
-        "image": "images/Artemis 13.png",
-        "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
-      },
-      {
         "name": "Exasperation",
         "creator": "Thycket",
         "image": "images/Exasperation.png",
@@ -340,6 +334,12 @@
         "creator": "Neomarbilian",
         "image": "images/Society.png",
         "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+      },
+      {
+        "name": "Silent Acropolis",
+        "creator": "ThePurgatory",
+        "image": "images/Silent Acropolis.png",
+        "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
       },
       {
         "name": "Misanthrope",
@@ -398,16 +398,16 @@
         "link": "https://www.youtube.com/watch?v=sNl2Vg5RXv4"
       },
       {
-        "name": "Artemis 13",
-        "creator": "nxhtrise",
-        "image": "images/Artemis 13.png",
-        "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
-      },
-      {
         "name": "Exasperation",
         "creator": "Thycket",
         "image": "images/Exasperation.png",
         "link": "https://www.youtube.com/watch?v=9-OZ_2p9p1I"
+      },
+      {
+        "name": "Society",
+        "creator": "Neomarbilian",
+        "image": "images/Society.png",
+        "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
       }
     ]
   },
