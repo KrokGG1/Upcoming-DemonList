@@ -147,6 +147,13 @@
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
+      "name": "Artemis 13",
+      "creator": "nxhtrise",
+      "wr": "86%",
+      "image": "images/Artemis 13.png",
+      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
+    },
+    {
       "name": "Wrath",
       "creator": "cherryteam",
       "wr": "N/A",
@@ -197,13 +204,6 @@
       "wr": "73%",
       "image": "images/Ouroboros.png",
       "link": "https://www.youtube.com/watch?v=9T8-r-nZ4Og"
-    },
-    {
-      "name": "Artemis 13",
-      "creator": "nxhtrise",
-      "wr": "86%",
-      "image": "images/Artemis 13.png",
-      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     }
   ],
   "defaultLists": [
