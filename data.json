@@ -149,7 +149,7 @@
     {
       "name": "Artemis 13",
       "creator": "nxhtrise",
-      "wr": "90%",
+      "wr": "86%",
       "image": "images/Artemis 13.png",
       "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     },
@@ -380,16 +380,16 @@
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
-        "name": "Tsunami",
-        "creator": "OniLinkGD",
-        "image": "images/Tsunami.png",
-        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
-      },
-      {
         "name": "KOCMOC Unleashed",
         "creator": "cherryteam",
         "image": "images/KOCMOC Unleashed.png",
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+      },
+      {
+        "name": "Tsunami",
+        "creator": "OniLinkGD",
+        "image": "images/Tsunami.png",
+        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
       },
       {
         "name": "Heliopolis",
