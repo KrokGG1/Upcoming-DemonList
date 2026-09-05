@@ -36,25 +36,11 @@
       "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
     },
     {
-      "name": "Angelicide",
-      "creator": "zYuko",
-      "wr": "41%",
-      "image": "images/Angelicide.jpg",
-      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-    },
-    {
       "name": "Sweeping Demon II",
       "creator": "Temp",
       "wr": "86%",
       "image": "images/Sweeping Demon II.png",
       "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-    },
-    {
-      "name": "Grief",
-      "creator": "IcEDCave",
-      "wr": "97%",
-      "image": "images/Grief.png",
-      "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
     },
     {
       "name": "KOCMOC Unleashed",
@@ -64,11 +50,25 @@
       "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
+      "name": "Grief",
+      "creator": "IcEDCave",
+      "wr": "97%",
+      "image": "images/Grief.png",
+      "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+    },
+    {
       "name": "Tsunami",
       "creator": "OniLinkGD",
       "wr": "N/A",
       "image": "images/Tsunami.png",
       "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+    },
+    {
+      "name": "Angelicide",
+      "creator": "zYuko",
+      "wr": "41%",
+      "image": "images/Angelicide.jpg",
+      "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
     },
     {
       "name": "Heliopolis",
@@ -126,6 +126,13 @@
       "link": "https://www.youtube.com/watch?v=f85Mcy8mwHI"
     },
     {
+      "name": "Artemis 13",
+      "creator": "nxhtrise",
+      "wr": "90%",
+      "image": "images/Artemis 13.png",
+      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
+    },
+    {
       "name": "Fairy Knife Hell",
       "creator": "EternaswipVMAX",
       "wr": "37%",
@@ -145,13 +152,6 @@
       "wr": "31%",
       "image": "images/Silent Clubstep II.png",
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
-    },
-    {
-      "name": "Artemis 13",
-      "creator": "nxhtrise",
-      "wr": "90%",
-      "image": "images/Artemis 13.png",
-      "link": "https://www.youtube.com/watch?v=Dg0WZY90X7w"
     },
     {
       "name": "Wrath",
@@ -250,16 +250,16 @@
         "link": "https://www.youtube.com/watch?v=x4Io4zkWVRw"
       },
       {
-        "name": "Tidal wave",
-        "creator": "OniLinkGD",
-        "image": "images/TW.png",
-        "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
-      },
-      {
         "name": "Green Bullet",
         "creator": "cherryteam",
         "image": "images/Green Bullet.png",
         "link": "https://www.youtube.com/watch?v=JG-qcvVkZFw"
+      },
+      {
+        "name": "Tidal wave",
+        "creator": "OniLinkGD",
+        "image": "images/TW.png",
+        "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
       },
       {
         "name": "ORBIT",
@@ -294,16 +294,16 @@
         "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
       },
       {
-        "name": "Angelicide",
-        "creator": "zYuko",
-        "image": "images/Angelicide.jpg",
-        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-      },
-      {
         "name": "Sweeping Demon II",
         "creator": "Temp",
         "image": "images/Sweeping Demon II.png",
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+      },
+      {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "images/KOCMOC Unleashed.png",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
         "name": "Grief",
@@ -312,10 +312,10 @@
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "images/KOCMOC Unleashed.png",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+        "name": "Angelicide",
+        "creator": "zYuko",
+        "image": "images/Angelicide.jpg",
+        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
       },
       {
         "name": "Heliopolis",
@@ -362,22 +362,10 @@
         "link": "https://www.youtube.com/watch?v=FwxtJQQocKA"
       },
       {
-        "name": "Angelicide",
-        "creator": "zYuko",
-        "image": "images/Angelicide.jpg",
-        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-      },
-      {
         "name": "Sweeping Demon II",
         "creator": "Temp",
         "image": "images/Sweeping Demon II.png",
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-      },
-      {
-        "name": "Grief",
-        "creator": "IdEDCave",
-        "image": "images/Grief.png",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
         "name": "KOCMOC Unleashed",
@@ -386,10 +374,22 @@
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
+        "name": "Grief",
+        "creator": "IdEDCave",
+        "image": "images/Grief.png",
+        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+      },
+      {
         "name": "Tsunami",
         "creator": "OniLinkGD",
         "image": "images/Tsunami.png",
         "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      },
+      {
+        "name": "Angelicide",
+        "creator": "zYuko",
+        "image": "images/Angelicide.jpg",
+        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
       },
       {
         "name": "Heliopolis",
