@@ -143,58 +143,63 @@ function initSortable() {
 
     sortable = new Sortable(container, {
 
-    animation: 200,
+        animation: 200,
 
-    draggable: ".level",
+        draggable: ".level",
 
-    filter: ".spbut, .buttons, .buttons button, a",
+        filter: ".spbut, .buttons, .buttons button, a",
 
-    preventOnFilter: false,
+        preventOnFilter: false,
 
-    onEnd: async function (evt) {
+onEnd: async function (evt) {
 
-        if (
-            evt.oldIndex == null ||
-            evt.newIndex == null ||
-            evt.oldIndex === evt.newIndex
-        ) {
-            return;
-        }
-
-        const elements = [
-            ...container.querySelectorAll(".level")
-        ];
-
-        const oldElement = elements[evt.oldIndex];
-        const newElement = elements[evt.newIndex];
-
-        if (!oldElement || !newElement) return;
-
-        const oldIndex =
-            Number(oldElement.dataset.index);
-
-        const newIndex =
-            Number(newElement.dataset.index);
-
-        const arr = id ? listLevels : levels;
-
-        if (
-            Number.isNaN(oldIndex) ||
-            Number.isNaN(newIndex)
-        ) {
-            return;
-        }
-
-        const moved = arr.splice(oldIndex, 1)[0];
-
-        arr.splice(newIndex, 0, moved);
-
-        await save();
-
-        renderLevels();
+    if (
+        evt.oldIndex == null ||
+        evt.newIndex == null ||
+        evt.oldIndex === evt.newIndex
+    ) {
+        return;
     }
 
-});
+    const arr = id ? listLevels : levels;
+
+    // Получаем только уровни, без сепараторов
+    const elements = [
+        ...container.querySelectorAll(".level")
+    ];
+
+    const oldElement = elements[evt.oldIndex];
+
+    if (!oldElement) return;
+
+    const oldIndex = Number(oldElement.dataset.index);
+
+    // После перемещения получаем новый порядок уровней
+    const newElements = [
+        ...container.querySelectorAll(".level")
+    ];
+
+    const newIndex = newElements.indexOf(oldElement);
+
+    if (
+        Number.isNaN(oldIndex) ||
+        newIndex === -1
+    ) {
+        return;
+    }
+
+    const moved = arr.splice(oldIndex, 1)[0];
+
+    arr.splice(newIndex, 0, moved);
+
+    await save();
+
+    renderLevels();
+
+}
+
+    });
+
 }
 
 // ================================
