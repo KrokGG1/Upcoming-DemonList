@@ -55,7 +55,7 @@ function renderLevels() {
 
     const container = document.getElementById("levels");
 
-     if (!container) return;
+    if (!container) return;
 
     container.innerHTML = "";
 
@@ -63,70 +63,78 @@ function renderLevels() {
 
     const arr = id ? listLevels : levels;
 
-        arr.forEach((level, index) => {
+    arr.forEach((level, index) => {
 
-        if(level.separator){
+        // Сепаратор
+        if (level.separator) {
 
-    container.innerHTML += `
-    <div class="dfc">
+            container.innerHTML += `
+                <div class="dfc"
+                     data-index="${index}">
 
-        <p>
-            - - - - - - - - ${level.separator} - - - - - - - -
-        </p>
+                    <p>
+                        - - - - - - - - ${level.separator} - - - - - - - -
+                    </p>
 
-        ${adminMode ? `
-            <button class="spbut" onclick="editSeparator(${index})">✏️</button>
-            <button class="spbut" onclick="deleteLevel(${index})">🗑️</button>
-        ` : ""}
+                    ${adminMode ? `
+                        <button class="spbut"
+                                onclick="editSeparator(${index})">✏️</button>
 
-    </div>
-    `;
+                        <button class="spbut"
+                                onclick="deleteLevel(${index})">🗑️</button>
+                    ` : ""}
 
-    return;
-}
+                </div>
+            `;
 
+            return;
+        }
 
+        // Обычный уровень
         container.innerHTML += `
-<div class="level"
-     draggable="true"
-     data-index="${index}">
+            <div class="level"
+                 draggable="true"
+                 data-index="${index}">
 
-    <a href="${level.link}" target="_blank">
-        <img class="image" src="${level.image}">
-    </a>
+                <a href="${level.link}" target="_blank">
+                    <img class="image" src="${level.image}">
+                </a>
 
-    <div class="level-name">
+                <div class="level-name">
 
-        <div class="name-num">
-             <p class="num">#${place}</p>
-            <p class="name">${level.name}</p>
-        </div>
+                    <div class="name-num">
+                        <p class="num">#${place}</p>
+                        <p class="name">${level.name}</p>
+                    </div>
 
-        <p class="creator">${level.creator}</p>
-        <p class="wr">WR: ${level.wr}</p>
+                    <p class="creator">${level.creator}</p>
+                    <p class="wr">WR: ${level.wr}</p>
 
-        ${adminMode ? `
-<div class="buttons">
+                    ${adminMode ? `
+                        <div class="buttons">
 
-    <button onclick="event.preventDefault();moveUp(${index})">⬆</button>
+                            <button onclick="event.preventDefault();moveUp(${index})">⬆</button>
 
-    <button onclick="event.preventDefault();moveDown(${index})">⬇</button>
+                            <button onclick="event.preventDefault();moveDown(${index})">⬇</button>
 
-    <button onclick="event.preventDefault();editLevel(${index})">✏️</button>
+                            <button onclick="event.preventDefault();editLevel(${index})">✏️</button>
 
-    <button onclick="event.preventDefault();deleteLevel(${index})">🗑️</button>
+                            <button onclick="event.preventDefault();deleteLevel(${index})">🗑️</button>
 
-</div>
-` : ""}
+                        </div>
+                    ` : ""}
 
-    </div>
+                </div>
 
-</div>
-`;
+            </div>
+        `;
+
         place++;
 
     });
+
     initSortable();
+
 }
 
 function initSortable() {
@@ -139,64 +147,47 @@ function initSortable() {
     if (!adminMode) return;
 
     const container = document.getElementById("levels");
+
     if (!container) return;
 
     sortable = new Sortable(container, {
 
         animation: 200,
 
+        // Перетаскивать можно только уровни
         draggable: ".level",
 
         filter: ".spbut, .buttons, .buttons button, a",
 
         preventOnFilter: false,
 
-onEnd: async function (evt) {
+        onEnd: async function () {
 
-    if (
-        evt.oldIndex == null ||
-        evt.newIndex == null ||
-        evt.oldIndex === evt.newIndex
-    ) {
-        return;
-    }
+            const arr = id ? listLevels : levels;
 
-    const arr = id ? listLevels : levels;
+            // Получаем ВСЕ элементы в новом порядке
+            const elements = [
+                ...container.children
+            ];
 
-    // Получаем только уровни, без сепараторов
-    const elements = [
-        ...container.querySelectorAll(".level")
-    ];
+            // Собираем новый массив
+            const newArr = elements.map(element => {
 
-    const oldElement = elements[evt.oldIndex];
+                const index = Number(element.dataset.index);
 
-    if (!oldElement) return;
+                return arr[index];
 
-    const oldIndex = Number(oldElement.dataset.index);
+            });
 
-    // После перемещения получаем новый порядок уровней
-    const newElements = [
-        ...container.querySelectorAll(".level")
-    ];
+            // Обновляем исходный массив
+            arr.length = 0;
+            arr.push(...newArr);
 
-    const newIndex = newElements.indexOf(oldElement);
+            await save();
 
-    if (
-        Number.isNaN(oldIndex) ||
-        newIndex === -1
-    ) {
-        return;
-    }
+            renderLevels();
 
-    const moved = arr.splice(oldIndex, 1)[0];
-
-    arr.splice(newIndex, 0, moved);
-
-    await save();
-
-    renderLevels();
-
-}
+        }
 
     });
 
@@ -563,7 +554,7 @@ async function toggleAdmin() {
 function logoutAdmin() {
 
     console.log("logout");
-    
+
     adminMode = false;
     localStorage.removeItem("githubToken");
     localStorage.setItem("adminMode", "false");
