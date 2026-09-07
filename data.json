@@ -102,18 +102,18 @@
       "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
     },
     {
-      "name": "Scarlet Sirius",
-      "creator": "TrueOmega",
-      "wr": "N/A",
-      "image": "images/Scarlet Sirius.png",
-      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
-    },
-    {
       "name": "Eternal Silence",
       "creator": "realvet",
       "wr": "74%",
       "image": "images/Eternal Silence.png",
       "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
+    },
+    {
+      "name": "Scarlet Sirius",
+      "creator": "TrueOmega",
+      "wr": "N/A",
+      "image": "images/Scarlet Sirius.png",
+      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
     },
     {
       "separator": "Amethyst"
