@@ -175,14 +175,14 @@
       "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
     },
     {
+      "separator": "Tidal Wave"
+    },
+    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "52%",
       "image": "https://img.youtube.com/vi/wyGXMC2I-j8/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
-    },
-    {
-      "separator": "Tidal Wave"
     },
     {
       "name": "Silent Oppenheimer",
@@ -368,7 +368,7 @@
       {
         "name": "Silent Acropolis",
         "creator": "ThePurgatory",
-        "image":"https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
+        "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
       },
       {
