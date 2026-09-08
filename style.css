@@ -1,7 +1,7 @@
 body{
     font-family: "Fredoka one", sans-serif;
     font-weight: bold;
-    background-image: url("images/bg.png");
+    background-image: url("bg.png");
     background-size: cover;
     background-attachment: fixed;
     letter-spacing: 2px;
@@ -11,9 +11,9 @@ body{
 }
 .level{
     display: flex;
-    border: 1px solid #43435a;
+    border: 1px solid #171927;
     border-radius: 15px;
-    background-color: #171a25;
+    background-color: #171927;
     text-decoration: none;
     width: 1000px;
     margin-bottom: 10px;
@@ -21,9 +21,9 @@ body{
 }
 .pred-d{
     display: flex;
-    border: 1px solid #43435a;
+    border: 1px solid #202235;
     border-radius: 15px;
-    background-color: #1b1e2b;
+    background-color: #202235;
     text-decoration: none;
     width: 500px;
     margin: 10px;
@@ -34,10 +34,12 @@ body{
     max-width: 100%;
     height: 150px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
 }
 .level-name{
     color: white;
+    margin-left: 5px;
+    margin-top: 20px;
 }
 .pred-b{
     color: white;
@@ -47,7 +49,8 @@ body{
 .name{
     font-size: 30px;
     margin: 0;
-    margin-left: 10px;
+    margin-left: 13px;
+    margin-top: 2px;
 }
 .pred{
     font-size: 30px;
@@ -57,16 +60,16 @@ body{
 }
 .creator{
     margin: 0;
-    margin-top: 10px;
+    margin-top: 12px;
     font-size: 20px;
-    color: #35a1b6;
+    color: #b2d1da;
 }
 .descr{
     margin: 0;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
-    color: #35a1b6;
+    color: #b2d1da;
 }
 @media (max-width: 300px) {
     .level-name {
@@ -101,10 +104,15 @@ body{
 }
 
 .num{
-    color: #269dff;
+    color: #b2c7f1;
     font-size: 25px;
     margin: 0;
     align-self: center;
+    background: #1e2149;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
 }
 .name-num{
     display: flex;
@@ -168,17 +176,17 @@ body{
 }
 
 .main-plc{
-    color: #e1e1e1;
+    color: white;
     font-size: 30px;
     list-style: none;
 }
 
 .l{
-    margin: 10px;
+    margin: 20px;
 }
 
 .chgs{
-    color: #e1e1e1;
+    color: white;
     font-size: 30px;
     list-style: none;
 }
@@ -196,7 +204,7 @@ body{
 }
 
 #main-text{
-    color: #e1e1e1;
+    color: white;
     font-size: 30px;
 }
 #welcome-text{
@@ -234,15 +242,15 @@ body{
 }
 
 .sl{
-    margin: 10px;
+    margin: 20px;
     list-style: none;
 }
 
 .wr{
     margin: 0;
-    margin-top: 10px;
+    margin-top: 12px;
     font-size: 20px;
-    color: white;
+    color: #c3c3c3;
 }
 #by-me{
     text-decoration: none;
@@ -376,7 +384,7 @@ body{
 
 .buttons{
 
-    margin-top:15px;
+    margin-top:5px;
 }
 
 .buttons button{
