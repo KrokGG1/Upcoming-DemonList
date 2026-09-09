@@ -325,12 +325,6 @@
     ],
     "list2": [
       {
-        "name": "Vehemence",
-        "creator": "zYuko",
-        "image": "https://img.youtube.com/vi/WE8fKwIephs/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
-      },
-      {
         "name": "Sweeping Demon II",
         "creator": "Temp",
         "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
@@ -383,6 +377,12 @@
         "creator": "Brittank88",
         "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
+      },
+      {
+      "name": "Eternal Silence",
+      "creator": "realvet",
+      "image": "https://img.youtube.com/vi/bvm5W8cJT3c/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
       }
     ],
     "list3": [
@@ -391,12 +391,6 @@
         "creator": "realvet",
         "image": "https://img.youtube.com/vi/2HC07n1g6AU/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
-      },
-      {
-        "name": "Vehemence",
-        "creator": "zYuko",
-        "image": "https://img.youtube.com/vi/WE8fKwIephs/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
       },
       {
         "name": "Sweeping Demon II",
@@ -445,6 +439,12 @@
         "creator": "Neomarbilian",
         "image": "https://img.youtube.com/vi/3CoEaH1CM7o/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+      },
+      {
+        "name": "Silent Acropolis",
+        "creator": "ThePurgatory",
+        "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
       }
     ]
   },
