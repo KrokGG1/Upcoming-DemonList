@@ -78,14 +78,14 @@
       "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
     },
     {
+      "separator": "Artemis 13"
+    },
+    {
       "name": "Exasperation",
       "creator": "Thycket",
       "wr": "67%",
       "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
-    },
-    {
-      "separator": "Artemis 13"
     },
     {
       "name": "Silent Acropolis",
@@ -348,16 +348,16 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
-      },
-      {
         "name": "Artemis 13",
         "creator": "mvngo",
         "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
+      },
+      {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
         "name": "Society",
@@ -422,16 +422,16 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
-      },
-      {
         "name": "Artemis 13",
         "creator": "mvngo",
         "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
+      },
+      {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
         "name": "Society",
