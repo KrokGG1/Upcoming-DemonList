@@ -56,12 +56,19 @@
       "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
     },
-    {
-      "name": "Tsunami",
-      "creator": "OniLinkGD",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+     {
+      "name": "Exasperation",
+      "creator": "Thycket",
+      "wr": "67%",
+      "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
+    },
+     {
+      "name": "Heliopolis",
+      "creator": "MindCap",
+      "wr": "51%",
+      "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
     },
     {
       "name": "Angelicide",
@@ -71,21 +78,14 @@
       "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
     },
     {
-      "name": "Heliopolis",
-      "creator": "MindCap",
-      "wr": "51%",
-      "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
+      "name": "Tsunami",
+      "creator": "OniLinkGD",
+      "wr": "N/A",
+      "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
     },
     {
       "separator": "Artemis 13"
-    },
-    {
-      "name": "Exasperation",
-      "creator": "Thycket",
-      "wr": "67%",
-      "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
     },
     {
       "name": "Silent Acropolis",
@@ -335,6 +335,18 @@
         "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
+       {
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
+      },
+       {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
+      },
       {
         "name": "Angelicide",
         "creator": "zYuko",
@@ -342,22 +354,10 @@
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-      },
-      {
         "name": "Artemis 13",
         "creator": "mvngo",
         "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
-      },
-      {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
         "name": "Society",
@@ -404,16 +404,10 @@
         "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
       },
       {
-        "name": "Tsunami",
-        "creator": "OniLinkGD",
-        "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
-      },
-      {
-        "name": "Angelicide",
-        "creator": "zYuko",
-        "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
         "name": "Heliopolis",
@@ -422,16 +416,22 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
+        "name": "Angelicide",
+        "creator": "zYuko",
+        "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "Tsunami",
+        "creator": "OniLinkGD",
+        "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
+      },
+      {
         "name": "Artemis 13",
         "creator": "mvngo",
         "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
-      },
-      {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
         "name": "Society",
