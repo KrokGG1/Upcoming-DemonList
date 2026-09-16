@@ -64,18 +64,18 @@
       "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
     },
     {
-      "name": "Heliopolis",
-      "creator": "MindCap",
-      "wr": "51%",
-      "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-    },
-    {
       "name": "Angelicide",
       "creator": "zYuko",
       "wr": "41%",
       "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+    },
+    {
+      "name": "Heliopolis",
+      "creator": "MindCap",
+      "wr": "51%",
+      "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
     },
     {
       "name": "Tsunami",
@@ -342,16 +342,16 @@
         "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-      },
-      {
         "name": "Angelicide",
         "creator": "zYuko",
         "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
         "name": "Artemis 13",
@@ -410,16 +410,16 @@
         "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-      },
-      {
         "name": "Angelicide",
         "creator": "zYuko",
         "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
         "name": "Tsunami",
