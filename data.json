@@ -29,13 +29,6 @@
       "link": "https://www.youtube.com/watch?v=W4dDG845in8"
     },
     {
-      "name": "Vehemence",
-      "creator": "zYuko",
-      "wr": "41%",
-      "image": "https://img.youtube.com/vi/WE8fKwIephs/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
-    },
-    {
       "name": "KOCMOC Unleashed",
       "creator": "cherryteam",
       "wr": "69%",
@@ -114,6 +107,13 @@
       "wr": "74%",
       "image": "https://img.youtube.com/vi/bvm5W8cJT3c/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
+    },
+    {
+      "name": "Vehemence",
+      "creator": "zYuko",
+      "wr": "41%",
+      "image": "https://img.youtube.com/vi/WE8fKwIephs/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
     },
     {
       "separator": "Amethyst"
