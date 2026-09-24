@@ -43,13 +43,6 @@
       "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
-      "name": "Sweeping Demon II",
-      "creator": "Temp",
-      "wr": "86%",
-      "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-    },
-    {
       "name": "Heliopolis",
       "creator": "MindCap",
       "wr": "66%",
@@ -62,6 +55,13 @@
       "wr": "97%",
       "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+    },
+    {
+      "name": "Sweeping Demon II",
+      "creator": "Temp",
+      "wr": "86%",
+      "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
     },
     {
       "name": "Exasperation",
