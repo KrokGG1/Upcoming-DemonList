@@ -168,13 +168,6 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
-      "name": "Labyrinth",
-      "creator": "SyQual",
-      "wr": "68%",
-      "image": "https://img.youtube.com/vi/skRj5RpaCVk/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
       "separator": "Tidal Wave"
     },
     {
@@ -183,6 +176,13 @@
       "wr": "60%",
       "image": "https://img.youtube.com/vi/wyGXMC2I-j8/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
+    },
+    {
+      "name": "Labyrinth",
+      "creator": "SyQual",
+      "wr": "68%",
+      "image": "https://img.youtube.com/vi/skRj5RpaCVk/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
     },
     {
       "name": "Silent Oppenheimer",
