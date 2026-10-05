@@ -43,11 +43,7 @@
       "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
-      "name": "Grief",
-      "creator": "IcEDCave",
-      "wr": "97%",
-      "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+      "separator": "GRIEF"
     },
     {
       "name": "Sweeping Demon II",
@@ -226,6 +222,12 @@
   "listLevels": {
     "list1": [
       {
+        "name": "GRIEF",
+        "creator": "IcEDCave",
+        "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
+        "link": "https://www.youtube.com/live/fV9rheIAddk"
+      },
+      {
         "name": "Artemis 13",
         "creator": "mvngo",
         "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
@@ -309,19 +311,13 @@
         "image": "https://img.youtube.com/vi/RTXnFHkGO_g/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
       },
-      {
-        "name": "The Bloop",
-        "creator": "murkkat",
-        "image": "https://img.youtube.com/vi/ROuXHSKEhHA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
-      }
     ],
     "list2": [
       {
-        "name": "Sweeping Demon II",
-        "creator": "Temp",
-        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
         "name": "KOCMOC Unleashed",
@@ -330,10 +326,16 @@
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
-        "name": "Grief",
-        "creator": "IdEDCave",
+        "name": "GRIEF",
+        "creator": "IcEDCave",
         "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+        "link": "https://www.youtube.com/live/fV9rheIAddk"
+      },
+      {
+        "name": "Sweeping Demon II",
+        "creator": "Temp",
+        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
       {
         "name": "Exasperation",
@@ -346,12 +348,6 @@
         "creator": "zYuko",
         "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-      },
-      {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
         "name": "Artemis 13",
@@ -386,10 +382,10 @@
         "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
       },
       {
-        "name": "Sweeping Demon II",
-        "creator": "Temp",
-        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+        "name": "Heliopolis",
+        "creator": "MindCap",
+        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
         "name": "KOCMOC Unleashed",
@@ -398,10 +394,10 @@
         "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
-        "name": "Grief",
-        "creator": "IdEDCave",
+        "name": "GRIEF",
+        "creator": "IcEDCave",
         "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=bQXnREyaO34"
+        "link": "https://www.youtube.com/live/fV9rheIAddk"
       },
       {
         "name": "Exasperation",
@@ -416,10 +412,10 @@
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
       },
       {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
+        "name": "Sweeping Demon II",
+        "creator": "Temp",
+        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
       {
         "name": "Tsunami",
