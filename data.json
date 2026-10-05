@@ -22,13 +22,6 @@
       "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
     },
     {
-      "name": "KOCMOC Unleashed",
-      "creator": "cherryteam",
-      "wr": "69%",
-      "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-    },
-    {
       "separator": "GRIEF"
     },
     {
@@ -37,6 +30,13 @@
       "wr": "86%",
       "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
+    },
+    {
+      "name": "KOCMOC Unleashed",
+      "creator": "cherryteam",
+      "wr": "69%",
+      "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
       "name": "Angelicide",
@@ -291,6 +291,12 @@
         "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
+       {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+      },
       {
         "name": "Angelicide",
         "creator": "zYuko",
@@ -302,12 +308,6 @@
         "creator": "Thycket",
         "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
-      },
-      {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
         "name": "Artemis 13",
@@ -338,10 +338,6 @@
   "defaultChanges": [
     {
       "name": "Aquamarine",
-      "icon": "🔵"
-    },
-    {
-      "name": "Infernis",
       "icon": "🔵"
     }
   ]
