@@ -15,20 +15,6 @@
       "link": "https://www.youtube.com/watch?v=XjypbEY_2Aw"
     },
     {
-      "name": "Kingdom Of Miracalis",
-      "creator": "realvet",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/2HC07n1g6AU/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
-    },
-    {
-      "name": "Rebirth The End",
-      "creator": "Narwall",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/W4dDG845in8/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=W4dDG845in8"
-    },
-    {
       "name": "Heliopolis",
       "creator": "MindCap",
       "wr": "85%",
@@ -67,13 +53,6 @@
       "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
     },
     {
-      "name": "Tsunami",
-      "creator": "OniLinkGD",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
-    },
-    {
       "separator": "Artemis 13"
     },
     {
@@ -82,13 +61,6 @@
       "wr": "99%",
       "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
-    },
-    {
-      "name": "Scarlet Sirius",
-      "creator": "TrueOmega",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/I2H0smuw9yU/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=I2H0smuw9yU"
     },
     {
       "name": "Misanthrope",
@@ -150,13 +122,6 @@
       "link": "https://www.youtube.com/watch?v=7UEaJkAViN4"
     },
     {
-      "name": "Wrath",
-      "creator": "cherryteam",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/qSP2-7Jg-2k/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=qSP2-7Jg-2k"
-    },
-    {
       "name": "Silent Circles",
       "creator": "Starchman",
       "wr": "85%",
@@ -212,11 +177,6 @@
       "name": "End of 2027 Top 10",
       "description": "31/12/2027 Top 10",
       "file": "list2"
-    },
-    {
-      "name": "End of 2028 Top 10",
-      "description": "31/12/2028 Top 10",
-      "file": "list3"
     }
   ],
   "listLevels": {
@@ -320,12 +280,6 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-      },
-      {
         "name": "GRIEF",
         "creator": "IcEDCave",
         "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
@@ -348,6 +302,12 @@
         "creator": "Thycket",
         "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
+      },
+      {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
         "name": "Artemis 13",
@@ -372,68 +332,6 @@
         "creator": "Brittank88",
         "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
-      }
-    ],
-    "list3": [
-      {
-        "name": "Kingdom Of Miracalis",
-        "creator": "realvet",
-        "image": "https://img.youtube.com/vi/2HC07n1g6AU/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=2HC07n1g6AU"
-      },
-      {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-      },
-      {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-      },
-      {
-        "name": "GRIEF",
-        "creator": "IcEDCave",
-        "image": "https://img.youtube.com/vi/bQXnREyaO34/maxresdefault.jpg",
-        "link": "https://www.youtube.com/live/fV9rheIAddk"
-      },
-      {
-        "name": "Sweeping Demon II",
-        "creator": "Temp",
-        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-      },
-      {
-        "name": "Angelicide",
-        "creator": "zYuko",
-        "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-      },
-      {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
-      },
-      {
-        "name": "Tsunami",
-        "creator": "OniLinkGD",
-        "image": "https://img.youtube.com/vi/hKEuQEEHx0E/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=hKEuQEEHx0E"
-      },
-      {
-        "name": "Artemis 13",
-        "creator": "mvngo",
-        "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
-      },
-      {
-        "name": "Society",
-        "creator": "Neomarbilian",
-        "image": "https://img.youtube.com/vi/3CoEaH1CM7o/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
       }
     ]
   },
