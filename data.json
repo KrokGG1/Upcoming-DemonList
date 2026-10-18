@@ -280,16 +280,16 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-      },
-      {
         "name": "Angelicide",
         "creator": "zYuko",
         "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
+      },
+      {
+        "name": "KOCMOC Unleashed",
+        "creator": "cherryteam",
+        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
       },
       {
         "name": "GRIEF",
