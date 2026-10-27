@@ -335,5 +335,10 @@
       }
     ]
   },
-  "defaultChanges": []
+  "defaultChanges": [
+    {
+      "name": "Eternal Night",
+      "icon": "🟡"
+    }
+  ]
 }
