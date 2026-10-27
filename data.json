@@ -335,10 +335,5 @@
       }
     ]
   },
-  "defaultChanges": [
-    {
-      "name": "Aquamarine",
-      "icon": "🔵"
-    }
-  ]
+  "defaultChanges": []
 }
