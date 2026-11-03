@@ -77,18 +77,18 @@
       "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
     },
     {
-      "name": "Eternal Silence",
-      "creator": "realvet",
-      "wr": "74%",
-      "image": "https://img.youtube.com/vi/bvm5W8cJT3c/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
-    },
-    {
       "name": "Misanthrope",
       "creator": "Brittank88",
       "wr": "48%",
       "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
+    },
+    {
+      "name": "Eternal Silence",
+      "creator": "realvet",
+      "wr": "74%",
+      "image": "https://img.youtube.com/vi/bvm5W8cJT3c/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
     },
     {
       "separator": "Amethyst"
@@ -293,6 +293,12 @@
         "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
       },
       {
+      "name": "Exasperation",
+      "creator": "Thycket",
+      "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
+      },
+      {
         "name": "KOCMOC Unleashed",
         "creator": "cherryteam",
         "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
@@ -311,10 +317,10 @@
         "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
       },
       {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/6AxgWd-JXvA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=6AxgWd-JXvA"
+        "name": "Silent Acropolis",
+        "creator": "ThePurgatory",
+        "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
       },
       {
         "name": "Artemis 13",
@@ -327,12 +333,6 @@
         "creator": "Neomarbilian",
         "image": "https://img.youtube.com/vi/3CoEaH1CM7o/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
-      },
-      {
-        "name": "Silent Acropolis",
-        "creator": "ThePurgatory",
-        "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
       },
       {
         "name": "Misanthrope",
