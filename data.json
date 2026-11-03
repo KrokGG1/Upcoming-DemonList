@@ -63,13 +63,6 @@
       "separator": "Artemis 13"
     },
     {
-      "name": "Misanthrope",
-      "creator": "Brittank88",
-      "wr": "48%",
-      "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
-    },
-    {
       "name": "Eternal Silence",
       "creator": "realvet",
       "wr": "74%",
@@ -82,6 +75,13 @@
       "wr": "41%",
       "image": "https://img.youtube.com/vi/WE8fKwIephs/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=WE8fKwIephs"
+    },
+    {
+      "name": "Misanthrope",
+      "creator": "Brittank88",
+      "wr": "48%",
+      "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
     },
     {
       "separator": "Amethyst"
