@@ -139,6 +139,13 @@
       "link": "https://www.youtube.com/watch?v=wyGXMC2I-j8"
     },
     {
+      "name": "The Human Limit",
+      "creator": "The Elite",
+      "wr": "N/A",
+      "image": "https://img.youtube.com/vi/3my3pFMER8A/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=3my3pFMER8A"
+    },
+    {
       "name": "Labyrinth",
       "creator": "SyQual",
       "wr": "68%",
@@ -165,13 +172,6 @@
       "wr": "73%",
       "image": "https://img.youtube.com/vi/9VqusfNE5dk/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=9VqusfNE5dk"
-    },
-    {
-      "name": "The Human Limit",
-      "creator": "The Elite",
-      "wr": "N/A",
-      "image": "https://img.youtube.com/vi/3my3pFMER8A/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=3my3pFMER8A"
     }
   ],
   "defaultLists": [
