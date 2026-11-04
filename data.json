@@ -36,18 +36,18 @@
       "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
     },
     {
-      "name": "Exasperation",
-      "creator": "Thycket",
-      "wr": "67%",
-      "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
-    },
-    {
       "name": "KOCMOC Unleashed",
       "creator": "cherryteam",
       "wr": "69%",
       "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+    },
+    {
+      "name": "Exasperation",
+      "creator": "Thycket",
+      "wr": "67%",
+      "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
     },
     {
       "separator": "GRIEF"
@@ -293,10 +293,10 @@
         "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
       },
       {
-      "name": "Exasperation",
-      "creator": "Thycket",
-      "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
+        "name": "Exasperation",
+        "creator": "Thycket",
+        "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
+        "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
       },
       {
         "name": "KOCMOC Unleashed",
