@@ -102,7 +102,7 @@
     },
     {
       "name": "It Means Everything",
-      "creator": "Vel",
+      "creator": "VelYT",
       "wr": "100%",
       "image": "https://img.youtube.com/vi/lPIRpux4Xl8/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
@@ -172,11 +172,6 @@
       "name": "Current Top 15",
       "description": "Actual Difficulty",
       "file": "list1"
-    },
-    {
-      "name": "End of 2027 Top 10",
-      "description": "31/12/2027 Top 10",
-      "file": "list2"
     }
   ],
   "listLevels": {
@@ -210,6 +205,12 @@
         "creator": "CairoX",
         "image": "https://img.youtube.com/vi/CELNmHwln_c/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=CELNmHwln_c"
+      },
+      {
+      "name": "It Means Everything",
+      "creator": "VelYT",
+      "image": "https://img.youtube.com/vi/lPIRpux4Xl8/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=lPIRpux4Xl8"
       },
       {
         "name": "Flamewall",
@@ -264,74 +265,6 @@
         "creator": "Nick24",
         "image": "https://img.youtube.com/vi/AdrmZsy52EY/maxresdefault.jpg",
         "link": "https://www.youtube.com/watch?v=AdrmZsy52EY"
-      },
-      {
-        "name": "Lesopowal",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/RTXnFHkGO_g/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
-      }
-    ],
-    "list2": [
-      {
-        "name": "Angelicide",
-        "creator": "zYuko",
-        "image": "https://img.youtube.com/vi/UvLvEh_xN5A/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=UvLvEh_xN5A"
-      },
-      {
-        "name": "Heliopolis",
-        "creator": "MindCap",
-        "image": "https://img.youtube.com/vi/wvwZaW2xLiw/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=wvwZaW2xLiw"
-      },
-      {
-        "name": "Exasperation",
-        "creator": "Thycket",
-        "image": "https://img.youtube.com/vi/lQd_66-Z3m4/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=lQd_66-Z3m4"
-      },
-      {
-        "name": "KOCMOC Unleashed",
-        "creator": "cherryteam",
-        "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
-      },
-      {
-        "name": "GRIEF",
-        "creator": "IcEDCave",
-        "image": "https://img.youtube.com/vi/gB8slBPlOjc/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=gB8slBPlOjc"
-      },
-      {
-        "name": "Sweeping Demon II",
-        "creator": "Temp",
-        "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-      },
-      {
-        "name": "Silent Acropolis",
-        "creator": "ThePurgatory",
-        "image": "https://img.youtube.com/vi/IvUkcfMWhQY/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
-      },
-      {
-        "name": "Artemis 13",
-        "creator": "mvngo",
-        "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
-      },
-      {
-        "name": "Society",
-        "creator": "Neomarbilian",
-        "image": "https://img.youtube.com/vi/3CoEaH1CM7o/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
-      },
-      {
-        "name": "Misanthrope",
-        "creator": "Brittank88",
-        "image": "https://img.youtube.com/vi/uoxXKsRzFgA/maxresdefault.jpg",
-        "link": "https://www.youtube.com/watch?v=uoxXKsRzFgA"
       }
     ]
   },
