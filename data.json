@@ -43,7 +43,11 @@
       "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
-      "separator": "GRIEF"
+      "name": "GRIEF",
+      "creator": "IcEDCave",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/gB8slBPlOjc/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=gB8slBPlOjc"
     },
     {
       "name": "Exasperation",
@@ -60,7 +64,18 @@
       "link": "https://www.youtube.com/watch?v=IvUkcfMWhQY"
     },
     {
-      "separator": "Artemis 13"
+      "name": "Artemis 13",
+      "creator": "mvngo",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/FgjOM0ef1N8/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=FgjOM0ef1N8"
+    },
+    {
+      "name": "Society",
+      "creator": "Neomarbilian",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/3CoEaH1CM7o/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
     },
     {
       "name": "Vehemence",
@@ -84,7 +99,18 @@
       "link": "https://www.youtube.com/watch?v=bvm5W8cJT3c"
     },
     {
-      "separator": "Amethyst"
+      "name": "Amethyst",
+      "creator": "iMist",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/4lfkzz1VCbA/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=4lfkzz1VCbA"
+    },
+    {
+      "name": "Thinking Space II",
+      "creator": "CairoX",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/CELNmHwln_c/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=CELNmHwln_c"
     },
     {
       "name": "Tunnel of Serpent",
@@ -108,6 +134,13 @@
       "link": "https://www.youtube.com/watch?v=Ts5ZDH6ueX4"
     },
     {
+      "name": "Flamewall",
+      "creator": "Narwall",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/x4Io4zkWVRw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=x4Io4zkWVRw"
+    },
+    {
       "name": "IT MEANS EVERYTHING",
       "creator": "VelYT",
       "wr": "100%",
@@ -129,7 +162,18 @@
       "link": "https://www.youtube.com/watch?v=uZsilHbMc2s"
     },
     {
-      "separator": "Tidal Wave"
+      "name": "Green Bullet",
+      "creator": "cherryteam",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/JG-qcvVkZFw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=JG-qcvVkZFw"
+      },
+    {
+      "name": "Tidal wave",
+      "creator": "OniLinkGD",
+      "wr": "100%",
+      "image": "https://img.youtube.com/vi/9fsZ014qB3s/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
     },
     {
       "name": "Escalator",
@@ -255,10 +299,6 @@
     {
       "name": "Scarlet Sirius",
       "icon": "🟠"
-    },
-    {
-      "name": "It Means Everything",
-      "icon": "🟣"
     }
   ]
 }
