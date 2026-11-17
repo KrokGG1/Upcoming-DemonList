@@ -65,30 +65,6 @@ function renderLevels() {
 
     arr.forEach((level, index) => {
 
-        // Сепаратор
-        if (level.separator) {
-
-            container.innerHTML += `
-                <div class="dfc"
-                     data-index="${index}">
-
-                    <p>
-                        - - - - - - - - ${level.separator} - - - - - - - -
-                    </p>
-
-                    ${adminMode ? `
-                        <button class="spbut"
-                                onclick="editSeparator(${index})">✏️</button>
-
-                        <button class="spbut"
-                                onclick="deleteLevel(${index})">🗑️</button>
-                    ` : ""}
-
-                </div>
-            `;
-
-            return;
-        }
 
         // Обычный уровень
         container.innerHTML += `
@@ -399,40 +375,6 @@ if (image === "" && arr[editingIndex].link !== "") {
 
 // =========================
 
-async function addSeparator(){
-
-    const text = prompt("Separator name");
-
-    if(!text) return;
-
-    const arr = id ? listLevels : levels;
-
-        arr.push({
-        separator: text
-    });
-
-    await save();
-    renderLevels();
-
-}
-
-async function editSeparator(index){
-
-    const arr = id ? listLevels : levels;
-
-    const name = prompt(
-        "Separator name",
-        arr[index].separator
-    );
-
-    if (!name) return;
-
-    arr[index].separator = name;
-
-    await save();
-    renderLevels();
-
-}
 
 function loadYoutubeThumbnail(videoUrl, callback) {
 
