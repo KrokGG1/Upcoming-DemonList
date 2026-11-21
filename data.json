@@ -15,6 +15,13 @@
       "link": "https://www.youtube.com/watch?v=XjypbEY_2Aw"
     },
     {
+      "name": "KOCMOC Unleashed",
+      "creator": "cherryteam",
+      "wr": "69%",
+      "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
+    },
+    {
       "name": "Heliopolis",
       "creator": "MindCap",
       "wr": "85%",
@@ -34,13 +41,6 @@
       "wr": "87%",
       "image": "https://img.youtube.com/vi/5Nh3CykTGtU/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=5Nh3CykTGtU"
-    },
-    {
-      "name": "KOCMOC Unleashed",
-      "creator": "cherryteam",
-      "wr": "69%",
-      "image": "https://img.youtube.com/vi/9dOGfMVqRFE/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=9dOGfMVqRFE"
     },
     {
       "name": "GRIEF",
@@ -188,13 +188,6 @@
       "wr": "68%",
       "image": "https://img.youtube.com/vi/skRj5RpaCVk/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
-      "name": "Aquamarine",
-      "creator": "ThePurgatory",
-      "wr": "53%",
-      "image": "https://img.youtube.com/vi/qae_15vrpT4/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=qae_15vrpT4"
     }
   ],
   "defaultLists": [
