@@ -176,6 +176,13 @@
       "link": "https://www.youtube.com/watch?v=9fsZ014qB3s"
     },
     {
+      "name": "Aquamarine",
+      "creator": "ThePurgatory",
+      "wr": "60%",
+      "image": "https://img.youtube.com/vi/qae_15vrpT4/maxresdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=qae_15vrpT4"
+    },
+    {
       "name": "Escalator",
       "creator": "Neomarbilan",
       "wr": "83%",
@@ -188,13 +195,6 @@
       "wr": "68%",
       "image": "https://img.youtube.com/vi/skRj5RpaCVk/maxresdefault.jpg",
       "link": "https://www.youtube.com/watch?v=skRj5RpaCVk"
-    },
-    {
-      "name": "Aquamarine",
-      "creator": "ThePurgatory",
-      "wr": "60%",
-      "image": "https://img.youtube.com/vi/qae_15vrpT4/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=qae_15vrpT4"
     }
   ],
   "defaultLists": [
